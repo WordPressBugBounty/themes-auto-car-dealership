@@ -17,3 +17,10 @@ a.button.button-secondary.alignright {
     box-shadow: 2px 2px 0px 0px #fff !important;
     font-size: 14px;
 }
+
+#accordion-section-auto_car_dealership_go_pro .accordion-section-title:after{
+  display: none;
+}
+.customize-pane-parent{
+  overflow-x: hidden !important;
+}

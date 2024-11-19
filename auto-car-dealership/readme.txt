@@ -3,7 +3,7 @@
 Contributors: VWThemes
 Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-site-editing, style-variations, translation-ready, block-editor-patterns, block-editor-styles, block-themes, block-patterns, sticky-post, threaded-comments, template-editing, blog, e-commerce, photography
 Requires at least: 5.9
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -214,6 +214,13 @@ Auto Car Dealership is a spectacular block based theme for websites designed for
 * Resolved css error for cart page.
 * Resolved css error for shop page.
 * Added language folder.
+
+= 1.4.8 =
+* Resolved css error for customizer.
+* Resolved css error for my account address page.
+* Added css for view cart button.
+* Reslved css error for checkout page.
+* Tested upto WP v6.7
 
 == Copyright ==
 

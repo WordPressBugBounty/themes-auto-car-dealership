@@ -43,7 +43,7 @@ span.version {
     margin-bottom: 50px;
 }
 td.update-link, .info-link a, .col-left-pro a,.pro-links a{
-    padding: 3px 27px;
+    padding: 3px 25px;
     font-weight: bold;
     font-size: 15px;
     background: linear-gradient(#6ccef5,#016194);
