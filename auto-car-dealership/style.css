@@ -4,7 +4,7 @@ Theme URI: https://www.vwthemes.com/products/free-car-dealership-wordpress-theme
 Author: VWThemes
 Author URI: https://www.vwthemes.com/
 Description: Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/
-Version: 1.4.8
+Version: 1.4.9
 Requires at least: 5.9
 Tested up to: 6.7
 Requires PHP: 7.2
@@ -474,6 +474,9 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
 }
 .woocommerce .wp-block-group {
   margin: 10px 10%;
+}
+.single-product .wc-block-components-product-price ins,.post-type-archive-product .wc-block-grid__product-price  ins{
+  background: none !important;
 }
 /*Banner section*/
 .choose-us-section .wp-block-heading{
@@ -1279,7 +1282,7 @@ span.wp-block-woocommerce-cart-order-summary-heading-block.wc-block-cart__totals
   text-align: left !important;
 }
 a.wc-block-components-totals-coupon-link,a.components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained,
-a.wc-block-components-checkout-return-to-cart-button,button.wc-block-components-checkout-place-order-button{
+a.wc-block-components-checkout-return-to-cart-button{
   background: var(--wp--preset--color--accent);
   border-radius: 0;
   color: #fff !important;
@@ -1287,6 +1290,9 @@ a.wc-block-components-checkout-return-to-cart-button,button.wc-block-components-
   padding: 10px 25px !important;
   font-size: 18px;
   border-radius: 6px;
+}
+.wc-block-components-checkout-return-to-cart-button{
+  background-color: var(--wp--preset--color--primary) !important;
 }
 span.wp-block-woocommerce-cart-order-summary-heading-block.wc-block-cart__totals-title{
   font-size: 1.5em !important;
