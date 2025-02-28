@@ -130,6 +130,9 @@ hr.h3hr {
     box-shadow: 0 0 15px 1px #bbb;
     margin: 20px 0px 20px 0px;
 }
+#lite_theme .col-left-inner{
+    width: 80%;
+}
 .col-left-inner h4,
 .update-now h4,
 .col-3 h4 {

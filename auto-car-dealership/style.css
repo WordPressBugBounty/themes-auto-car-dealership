@@ -4,14 +4,14 @@ Theme URI: https://www.vwthemes.com/products/free-car-dealership-wordpress-theme
 Author: VWThemes
 Author URI: https://www.vwthemes.com/
 Description: Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/
-Version: 1.5
+Version: 1.5.1
 Requires at least: 5.9
 Tested up to: 6.7
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: auto-car-dealership
-Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, style-variations, translation-ready, block-editor-patterns, block-editor-styles, block-themes, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-site-editing, block-patterns, sticky-post, threaded-comments, template-editing, blog, e-commerce, photography
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, style-variations, translation-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-site-editing, block-patterns, sticky-post, threaded-comments, template-editing, blog, e-commerce, photography
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned.
@@ -513,7 +513,7 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
   background: var(--wp--preset--color--primary) !important;
 }
 /*Choose us section*/
-.choose-us-section, .choose-us-section h2, .title-img, .choose-us-section .wp-block-columns, .brand-section, .brand-section .wp-block-columns, .brand-section h3, .featured-car-section, .featured-car-section .wp-block-columns, .featured-car-section h3, .featured-car-section .head-text, .blog-section, .blog-section ul.wp-block-latest-posts__list, .blog-section .head-text, .gallery-section, .gallery-section .wp-block-columns, .gallery-section h3, .archive-page, .archive-page ul.wp-block-latest-posts{
+.choose-us-section, .choose-us-section h2, .title-img, .choose-us-section .wp-block-columns, .brand-section, .brand-section .wp-block-columns, .brand-section h3, .featured-car-section, .featured-car-section .wp-block-columns, .featured-car-section h3, .featured-car-section .head-text, .blog-section, .blog-section ul.wp-block-latest-posts__list, .blog-section .head-text, .gallery-section, .gallery-section .wp-block-columns, .gallery-section h3{
   padding: 0 50px;
 }
 .title-img, .brand-section figure {
@@ -709,19 +709,17 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
   margin:  15px 0 0;
 }
 .wp-block-latest-posts.is-grid li time.wp-block-latest-posts__post-date{
-  position: absolute;
-  top: 0;
-  right: 0;
   display: inline-block;
   background: var(--wp--preset--color--secondary);
   padding: 5px 10px;
   font-weight: 600;
   font-size: 13px;
   color: var(--wp--preset--color--primary);
+  margin-left: 10px;
 }
 .wp-block-latest-posts.is-grid li .wp-block-latest-posts__post-excerpt {
   color: #6b6b6b;
-  padding: 0 15px;
+  padding: 0 10px;
   font-size: 14px;
   line-height: 25px;
 }
@@ -885,8 +883,8 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
 }
 
 /*Archive Page*/
-.archive-page {
-  padding: 50px;
+.archive-page ,.theme-sidebar {
+  padding-top: 50px !important;
 }
 .comment-body .reply a {
   color: var(--wp--preset--color--primary);
@@ -1218,7 +1216,22 @@ figure.alignfull.wp-block-post-featured-image, .wp-block-audio, .wp-block-audio 
     font-weight: 600;
   }
 }
-
+@media screen and (min-width: 782px) and (max-width: 1023px){
+  .archive-page .wp-block-latest-posts__list li{
+    width: 100% !important;
+  }
+  
+}
+.single-post .wp-block-post-featured-image img{
+  width: auto !important;
+}
+.single-post .wp-block-post-author__avatar img{
+  width: 25px !important;
+  height: 25px !important;
+}
+.theme-sidebar .wp-block-social-links a{
+  color: #fff !important;
+}
 /*cart css*/
 header.woocommerce-Address-title.title{
   display: inline-grid;

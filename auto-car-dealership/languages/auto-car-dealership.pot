@@ -1,15 +1,15 @@
-# Copyright (C) 2024 VWThemes
+# Copyright (C) 2025 VWThemes
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Auto Car Dealership 1.4.7\n"
+"Project-Id-Version: Auto Car Dealership 1.5.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/auto-car-dealership\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-18T15:58:21+05:30\n"
+"POT-Creation-Date: 2025-02-27T17:49:29+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: auto-car-dealership\n"

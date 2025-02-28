@@ -175,19 +175,17 @@ p.form-submit.wp-block-button input.wp-block-button__link.wp-element-button {
   margin:  15px 0 0;
 }
 .wp-block-latest-posts.is-grid li time.wp-block-latest-posts__post-date{
-  position: absolute;
-  top: 0;
-  right: 0;
   display: inline-block;
   background: var(--wp--preset--color--secondary);
   padding: 5px 10px;
   font-weight: 600;
   font-size: 13px;
   color: #fff;
+  margin-left: 10px;
 }
 .wp-block-latest-posts.is-grid li .wp-block-latest-posts__post-excerpt {
   color: #6b6b6b;
-  padding: 0 15px;
+  padding: 0 10px;
   font-size: 14px;
   line-height: 25px;
 }

@@ -620,9 +620,6 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
   margin:  15px 0 0;
 }
 .blog-section .wp-block-latest-posts.is-grid li time.wp-block-latest-posts__post-date{
-  position: absolute;
-  top: 0;
-  left: 0;
   display: inline-block;
   background: var(--wp--preset--color--secondary);
   padding: 5px 10px;
