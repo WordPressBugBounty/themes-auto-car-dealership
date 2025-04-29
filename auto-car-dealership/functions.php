@@ -155,16 +155,7 @@ function auto_car_dealership_block_editor_styles() {
 }
 add_action( 'enqueue_block_editor_assets', 'auto_car_dealership_block_editor_styles' );
 
-define('AUTO_CAR_DEALERSHIP_BUY_NOW',__('https://www.vwthemes.com/products/car-wordpress-theme','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_SUPPORT',__('https://wordpress.org/support/theme/auto-car-dealership/','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_REVIEW',__('https://wordpress.org/support/theme/auto-car-dealership/reviews/','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_LIVE_DEMO',__('https://www.vwthemes.net/auto-car-dealership/','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_PRO_DOC',__('https://preview.vwthemesdemo.com/docs/vw-automobile-pro/','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_FREE_DOC',__('https://preview.vwthemesdemo.com/docs/free-auto-car-dealership/','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_FAQ',__('https://www.vwthemes.com/faqs/','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_CONTACT',__('https://www.vwthemes.com/contact/','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_THEME_BUNDLE_BUY_NOW',__('https://www.vwthemes.com/products/wp-theme-bundle','auto-car-dealership'));
-define('AUTO_CAR_DEALERSHIP_THEME_BUNDLE_DOC',__('https://preview.vwthemesdemo.com/docs/theme-bundle/','auto-car-dealership'));
+
 
 if ( ! function_exists( 'auto_car_dealership_switch_sanitization' ) ) {
 	function auto_car_dealership_switch_sanitization( $input ) {
@@ -176,27 +167,42 @@ if ( ! function_exists( 'auto_car_dealership_switch_sanitization' ) ) {
 	}
 }
 
-/* Load Jetpack compatibility file. */
-require get_template_directory() . '/inc/customizer.php';
+function auto_car_dealership_init_setup() {
+	/* Load Jetpack compatibility file. */
+	require get_template_directory() . '/inc/customizer.php';
 
-// Add block patterns
-require get_template_directory() . '/inc/block-patterns.php';
+	// Add block patterns
+	require get_template_directory() . '/inc/block-patterns.php';
 
-/**
- * Load core file.
- */
-require_once get_template_directory() . '/inc/core/theme-info.php';
-require_once get_template_directory() . '/inc/core/template-functions.php';
+	/**
+	 * Load core file.
+	 */
+	require_once get_template_directory() . '/inc/core/theme-info.php';
+	require_once get_template_directory() . '/inc/core/template-functions.php';
 
-/**
- * TGM
- */
-require_once get_template_directory() . '/inc/tgm/tgm.php';
+	/**
+	 * TGM
+	 */
+	require_once get_template_directory() . '/inc/tgm/tgm.php';
 
-/**
- * Section Pro
- */
-require get_template_directory() . '/inc/section-pro/customizer.php';
+	/**
+	 * Section Pro
+	 */
+	require get_template_directory() . '/inc/section-pro/customizer.php';
+
+	define('AUTO_CAR_DEALERSHIP_BUY_NOW',__('https://www.vwthemes.com/products/car-wordpress-theme','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_SUPPORT',__('https://wordpress.org/support/theme/auto-car-dealership/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_REVIEW',__('https://wordpress.org/support/theme/auto-car-dealership/reviews/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_LIVE_DEMO',__('https://www.vwthemes.net/auto-car-dealership/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_PRO_DOC',__('https://preview.vwthemesdemo.com/docs/vw-automobile-pro/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_FREE_DOC',__('https://preview.vwthemesdemo.com/docs/free-auto-car-dealership/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_FAQ',__('https://www.vwthemes.com/faqs/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_CONTACT',__('https://www.vwthemes.com/contact/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_THEME_BUNDLE_BUY_NOW',__('https://www.vwthemes.com/products/wp-theme-bundle','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_THEME_BUNDLE_DOC',__('https://preview.vwthemesdemo.com/docs/theme-bundle/','auto-car-dealership'));
+
+}
+add_action( 'after_setup_theme', 'auto_car_dealership_init_setup' );
 
 
 /* Here you trigger the ajax handler function using jQuery */
