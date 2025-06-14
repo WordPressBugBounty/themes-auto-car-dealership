@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Auto Car Dealership 1.5.1\n"
+"Project-Id-Version: Auto Car Dealership 1.5.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/auto-car-dealership\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-27T17:49:29+05:30\n"
+"POT-Creation-Date: 2025-05-27T16:58:00+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: auto-car-dealership\n"
@@ -45,7 +45,7 @@ msgid "Primary Navigation"
 msgstr ""
 
 #: functions.php:78
-msgid "Thank you for choosing Auto Car Dealership. Would like to have you on our Welcome page so that you can reap all the benefits of our Auto Car Dealership."
+msgid "Thank you for choosing Auto Car Dealership. Would like to have you on our Welcome page so that you can read all the benefits of our Auto Car Dealership."
 msgstr ""
 
 #: functions.php:79
@@ -70,43 +70,43 @@ msgctxt "Poppins font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:158
+#: functions.php:193
 msgid "https://www.vwthemes.com/products/car-wordpress-theme"
 msgstr ""
 
-#: functions.php:159
+#: functions.php:194
 msgid "https://wordpress.org/support/theme/auto-car-dealership/"
 msgstr ""
 
-#: functions.php:160
+#: functions.php:195
 msgid "https://wordpress.org/support/theme/auto-car-dealership/reviews/"
 msgstr ""
 
-#: functions.php:161
+#: functions.php:196
 msgid "https://www.vwthemes.net/auto-car-dealership/"
 msgstr ""
 
-#: functions.php:162
+#: functions.php:197
 msgid "https://preview.vwthemesdemo.com/docs/vw-automobile-pro/"
 msgstr ""
 
-#: functions.php:163
+#: functions.php:198
 msgid "https://preview.vwthemesdemo.com/docs/free-auto-car-dealership/"
 msgstr ""
 
-#: functions.php:164
+#: functions.php:199
 msgid "https://www.vwthemes.com/faqs/"
 msgstr ""
 
-#: functions.php:165
+#: functions.php:200
 msgid "https://www.vwthemes.com/contact/"
 msgstr ""
 
-#: functions.php:166
+#: functions.php:201
 msgid "https://www.vwthemes.com/products/wp-theme-bundle"
 msgstr ""
 
-#: functions.php:167
+#: functions.php:202
 msgid "https://preview.vwthemesdemo.com/docs/theme-bundle/"
 msgstr ""
 
@@ -227,340 +227,347 @@ msgstr ""
 msgid "All our WordPress themes are modern, minimalist, 100% responsive, seo-friendly,feature-rich, and multipurpose that best suit designers, bloggers and other professionals who are working in the creative fields."
 msgstr ""
 
-#: inc/core/theme-info.php:38
-msgid "Try Premium "
-msgstr ""
-
-#: inc/core/theme-info.php:39
-msgid "Auto Car Dealership Theme"
-msgstr ""
-
 #: inc/core/theme-info.php:40
-msgid "at 20% Discount"
+msgid "TRY PREMIUM"
 msgstr ""
 
 #: inc/core/theme-info.php:41
-msgid "Use Coupon"
+msgid "AUTO CAR DEALERSHIP THEME"
 msgstr ""
 
-#: inc/core/theme-info.php:41
-msgid "vwpro20"
+#: inc/core/theme-info.php:47
+msgid "GET THE FLAT DISCOUNT OF"
 msgstr ""
 
-#: inc/core/theme-info.php:43
-#: inc/core/theme-info.php:296
-msgid "Upgrade to Pro"
+#: inc/core/theme-info.php:48
+msgid "20%"
 msgstr ""
 
-#: inc/core/theme-info.php:56
+#: inc/core/theme-info.php:51
+msgid "\"VWPRO20\""
+msgstr ""
+
+#: inc/core/theme-info.php:52
+msgid "USE COUPON CODE"
+msgstr ""
+
+#: inc/core/theme-info.php:54
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: inc/core/theme-info.php:65
 msgid "Free Setup"
 msgstr ""
 
-#: inc/core/theme-info.php:57
+#: inc/core/theme-info.php:66
 msgid "Get Premium"
 msgstr ""
 
-#: inc/core/theme-info.php:58
+#: inc/core/theme-info.php:67
 msgid "Free Vs Premium"
 msgstr ""
 
-#: inc/core/theme-info.php:59
-#: inc/core/theme-info.php:111
+#: inc/core/theme-info.php:68
+#: inc/core/theme-info.php:120
 msgid "Get 250+ Themes Bundle at $99"
 msgstr ""
 
-#: inc/core/theme-info.php:64
+#: inc/core/theme-info.php:73
 msgid "Lite Theme Information"
 msgstr ""
 
-#: inc/core/theme-info.php:66
+#: inc/core/theme-info.php:75
 msgid "Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages."
 msgstr ""
 
-#: inc/core/theme-info.php:69
+#: inc/core/theme-info.php:78
 msgid "Edit Your Site"
 msgstr ""
 
-#: inc/core/theme-info.php:70
+#: inc/core/theme-info.php:79
 msgid "Visit Your Site"
 msgstr ""
 
-#: inc/core/theme-info.php:74
+#: inc/core/theme-info.php:83
 msgid "Having Trouble, Need Support?"
 msgstr ""
 
-#: inc/core/theme-info.php:75
+#: inc/core/theme-info.php:84
 msgid "Our dedicated team is well prepared to help you out in case of queries and doubts regarding our theme."
 msgstr ""
 
-#: inc/core/theme-info.php:77
+#: inc/core/theme-info.php:86
 msgid "Support Forum"
 msgstr ""
 
-#: inc/core/theme-info.php:81
+#: inc/core/theme-info.php:90
 msgid "Reviews & Testimonials"
 msgstr ""
 
-#: inc/core/theme-info.php:82
+#: inc/core/theme-info.php:91
 msgid "All the features and aspects of this WordPress Theme are phenomenal. I'd recommend this theme to all."
 msgstr ""
 
-#: inc/core/theme-info.php:84
+#: inc/core/theme-info.php:93
 msgid "Reviews"
 msgstr ""
 
-#: inc/core/theme-info.php:88
+#: inc/core/theme-info.php:97
 msgid "Theme Documentation"
 msgstr ""
 
-#: inc/core/theme-info.php:89
+#: inc/core/theme-info.php:98
 msgid "If you need any assistance regarding setting up and configuring the Theme, our documentation is there."
 msgstr ""
 
-#: inc/core/theme-info.php:91
+#: inc/core/theme-info.php:100
 msgid "Free Theme Documentation"
 msgstr ""
 
-#: inc/core/theme-info.php:100
+#: inc/core/theme-info.php:109
 msgid "Premium Theme Information"
 msgstr ""
 
-#: inc/core/theme-info.php:103
+#: inc/core/theme-info.php:112
 msgid "This spectacular premium Automobile WordPress Theme is made for the motor-heads. We have created our Automobile themes Stunning design with respect to the automotive industry. The frenzy for keeping our cars immaculate and shiny is well known. We assure you that it will be well reflected in our theme. As they are made with utilizing clean coding standards and it will function well with current WordPress version. It is built on the foundation of being responsive & user-friendly. This allows it to function at its optimal best across all platforms. This takes care of all the visitors and users, regardless of the source of traffic is being driven from."
 msgstr ""
 
-#: inc/core/theme-info.php:108
+#: inc/core/theme-info.php:117
 msgid "Live Demo"
 msgstr ""
 
-#: inc/core/theme-info.php:109
+#: inc/core/theme-info.php:118
 msgid "Buy Pro"
 msgstr ""
 
-#: inc/core/theme-info.php:110
+#: inc/core/theme-info.php:119
 msgid "Pro Documentation"
 msgstr ""
 
-#: inc/core/theme-info.php:121
+#: inc/core/theme-info.php:130
 msgid "Theme Features"
 msgstr ""
 
-#: inc/core/theme-info.php:127
+#: inc/core/theme-info.php:136
 msgid "Features"
 msgstr ""
 
-#: inc/core/theme-info.php:128
+#: inc/core/theme-info.php:137
 msgid "Free Themes"
 msgstr ""
 
-#: inc/core/theme-info.php:129
+#: inc/core/theme-info.php:138
 msgid "Premium Themes"
 msgstr ""
 
-#: inc/core/theme-info.php:134
+#: inc/core/theme-info.php:143
 msgid "Easy Setup"
 msgstr ""
 
-#: inc/core/theme-info.php:139
+#: inc/core/theme-info.php:148
 msgid "Responsive Design"
 msgstr ""
 
-#: inc/core/theme-info.php:144
+#: inc/core/theme-info.php:153
 msgid "SEO Friendly"
 msgstr ""
 
-#: inc/core/theme-info.php:149
+#: inc/core/theme-info.php:158
 msgid "Banner Settings"
 msgstr ""
 
-#: inc/core/theme-info.php:154
+#: inc/core/theme-info.php:163
 msgid "Number of Slider/ Banner"
 msgstr ""
 
-#: inc/core/theme-info.php:155
+#: inc/core/theme-info.php:164
 msgid "Banner"
 msgstr ""
 
-#: inc/core/theme-info.php:156
+#: inc/core/theme-info.php:165
 msgid "Unlimited Slides"
 msgstr ""
 
-#: inc/core/theme-info.php:159
+#: inc/core/theme-info.php:168
 msgid "Template Pages"
 msgstr ""
 
-#: inc/core/theme-info.php:160
+#: inc/core/theme-info.php:169
 msgid "3"
 msgstr ""
 
-#: inc/core/theme-info.php:161
+#: inc/core/theme-info.php:170
 msgid "6"
 msgstr ""
 
-#: inc/core/theme-info.php:164
+#: inc/core/theme-info.php:173
 msgid "Home Page Template"
 msgstr ""
 
-#: inc/core/theme-info.php:165
-#: inc/core/theme-info.php:166
-#: inc/core/theme-info.php:176
+#: inc/core/theme-info.php:174
+#: inc/core/theme-info.php:175
+#: inc/core/theme-info.php:185
 msgid "1"
 msgstr ""
 
-#: inc/core/theme-info.php:169
+#: inc/core/theme-info.php:178
 msgid "Theme sections"
 msgstr ""
 
-#: inc/core/theme-info.php:170
+#: inc/core/theme-info.php:179
 msgid "2"
 msgstr ""
 
-#: inc/core/theme-info.php:171
+#: inc/core/theme-info.php:180
 msgid "10"
 msgstr ""
 
-#: inc/core/theme-info.php:174
+#: inc/core/theme-info.php:183
 msgid "Contact us Page Template"
 msgstr ""
 
-#: inc/core/theme-info.php:179
+#: inc/core/theme-info.php:188
 msgid "Blog Templates & Layout"
 msgstr ""
 
-#: inc/core/theme-info.php:181
+#: inc/core/theme-info.php:190
 msgid "3(Full width/Left/Right Sidebar)"
 msgstr ""
 
-#: inc/core/theme-info.php:184
+#: inc/core/theme-info.php:193
 msgid "Page Templates & Layout"
 msgstr ""
 
-#: inc/core/theme-info.php:186
+#: inc/core/theme-info.php:195
 msgid "2(Left/Right Sidebar)"
 msgstr ""
 
-#: inc/core/theme-info.php:189
+#: inc/core/theme-info.php:198
 msgid "Section Reordering"
 msgstr ""
 
-#: inc/core/theme-info.php:194
+#: inc/core/theme-info.php:203
 msgid "Demo Importer"
 msgstr ""
 
-#: inc/core/theme-info.php:199
+#: inc/core/theme-info.php:208
 msgid "Full Documentation"
 msgstr ""
 
-#: inc/core/theme-info.php:204
+#: inc/core/theme-info.php:213
 msgid "Latest WordPress Compatibility"
 msgstr ""
 
-#: inc/core/theme-info.php:209
+#: inc/core/theme-info.php:218
 msgid "Woo-Commerce Compatibility"
 msgstr ""
 
-#: inc/core/theme-info.php:214
+#: inc/core/theme-info.php:223
 msgid "Support 3rd Party Plugins"
 msgstr ""
 
-#: inc/core/theme-info.php:219
+#: inc/core/theme-info.php:228
 msgid "Secure and Optimized Code"
 msgstr ""
 
-#: inc/core/theme-info.php:224
+#: inc/core/theme-info.php:233
 msgid "Exclusive Functionalities"
 msgstr ""
 
-#: inc/core/theme-info.php:229
+#: inc/core/theme-info.php:238
 msgid "Section Enable / Disable"
 msgstr ""
 
-#: inc/core/theme-info.php:234
+#: inc/core/theme-info.php:243
 msgid "Section Google Font Choices"
 msgstr ""
 
-#: inc/core/theme-info.php:239
+#: inc/core/theme-info.php:248
 #: patterns/primary-sidebar.php:44
 msgid "Gallery"
 msgstr ""
 
-#: inc/core/theme-info.php:244
+#: inc/core/theme-info.php:253
 msgid "Simple & Mega Menu Option"
 msgstr ""
 
-#: inc/core/theme-info.php:249
+#: inc/core/theme-info.php:258
 msgid "Support to add custom CSS / JS "
 msgstr ""
 
-#: inc/core/theme-info.php:254
+#: inc/core/theme-info.php:263
 msgid "Shortcodes"
 msgstr ""
 
-#: inc/core/theme-info.php:259
+#: inc/core/theme-info.php:268
 msgid "Custom Background, Colors, Header, Logo & Menu"
 msgstr ""
 
-#: inc/core/theme-info.php:264
+#: inc/core/theme-info.php:273
 msgid "Premium Membership"
 msgstr ""
 
-#: inc/core/theme-info.php:269
+#: inc/core/theme-info.php:278
 msgid "Budget Friendly Value"
 msgstr ""
 
-#: inc/core/theme-info.php:274
+#: inc/core/theme-info.php:283
 msgid "Priority Error Fixing"
 msgstr ""
 
-#: inc/core/theme-info.php:279
+#: inc/core/theme-info.php:288
 msgid "Custom Feature Addition"
 msgstr ""
 
-#: inc/core/theme-info.php:284
+#: inc/core/theme-info.php:293
 msgid "All Access Theme Pass"
 msgstr ""
 
-#: inc/core/theme-info.php:289
+#: inc/core/theme-info.php:298
 msgid "Seamless Customer Support"
 msgstr ""
 
-#: inc/core/theme-info.php:308
+#: inc/core/theme-info.php:305
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/core/theme-info.php:317
 msgid "WP Theme Bundle"
 msgstr ""
 
-#: inc/core/theme-info.php:309
+#: inc/core/theme-info.php:318
 msgid "Enhance your website effortlessly with our WP Theme Bundle. Get access to 250+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience."
 msgstr ""
 
-#: inc/core/theme-info.php:311
+#: inc/core/theme-info.php:320
 msgid "Features:"
 msgstr ""
 
-#: inc/core/theme-info.php:312
+#: inc/core/theme-info.php:321
 msgid "250+ Premium Themes & 5+ Plugins."
 msgstr ""
 
-#: inc/core/theme-info.php:313
+#: inc/core/theme-info.php:322
 msgid "Seamless Integration."
 msgstr ""
 
-#: inc/core/theme-info.php:314
+#: inc/core/theme-info.php:323
 msgid "Customization Flexibility."
 msgstr ""
 
-#: inc/core/theme-info.php:315
+#: inc/core/theme-info.php:324
 msgid "Regular Updates."
 msgstr ""
 
-#: inc/core/theme-info.php:316
+#: inc/core/theme-info.php:325
 msgid "Dedicated Support."
 msgstr ""
 
-#: inc/core/theme-info.php:320
+#: inc/core/theme-info.php:329
 msgid "Buy Now"
 msgstr ""
 
-#: inc/core/theme-info.php:321
+#: inc/core/theme-info.php:330
 msgid "Documentation"
 msgstr ""
 
@@ -1222,6 +1229,16 @@ msgstr ""
 #: patterns/comment-section-1.php
 msgctxt "Pattern title"
 msgid "Comment Section 1"
+msgstr ""
+
+#: patterns/cover-with-archive-title.php
+#: patterns/cover-with-index-title.php
+msgctxt "Pattern title"
+msgid "Cover With archive Title"
+msgstr ""
+
+#: patterns/cover-with-index-title.php:12
+msgid "BLOG"
 msgstr ""
 
 #: patterns/cover-with-post-title.php

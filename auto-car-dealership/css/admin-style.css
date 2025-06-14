@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*About theme*/
 .appearance_page_auto_car_dealership_guide{
   background: #fff;
@@ -254,21 +256,82 @@ table.tablebox {
 .tablebox span.dashicons.dashicons-no{
     color: #db1601;
 }
+/*activation notice*/
 .notice.notice-success.is-dismissible.welcome-notice span a{
     margin: 10px 10px 10px 0px;
+    padding: 2px 20px !important;
+    font-weight: 600;
+    line-height: 1.8;
+}
+.notice.notice-success.is-dismissible.welcome-notice span a:hover{
+    background: transparent !important;
+    color: #242628 !important;
+    border: 2px solid #242628 !important;
+    padding: 2px 20px !important;
+}
+.notice.notice-success.is-dismissible.welcome-notice span.import-btn a{
+    background: #242628;
+    border: 2px solid #242628;
 }
 .notice.notice-success.is-dismissible.welcome-notice span.upgrade-btn a{
-    background-color: #00a32a;
-    border-color: #00a32a;
+    background-color: #2271b1;
+    border: 2px solid #2271b1;
 }
 .notice.notice-success.is-dismissible.welcome-notice span.demo-btn a{
-    background-color: #dba617;
-    border-color: #dba617;
+    background-color: #00a32a;
+    border: 2px solid #00a32a;
 }
 .notice.notice-success.is-dismissible.welcome-notice span.bundle-btn a{
     background-color: #17A2B8;
-    border-color: #17A2B8;
+   border: 2px solid #17A2B8;
 }
+.real-estate-developer-action{
+    margin-bottom: 20px;
+}
+.notice.notice-success.is-dismissible.welcome-notice .notice-row{
+    display: flex;
+    justify-content: space-between;
+}
+.notice.notice-success.is-dismissible.welcome-notice .notice-text{
+    align-self: center;
+}
+.notice.notice-success.is-dismissible.welcome-notice .welcome-text1,.notice.notice-success.is-dismissible.welcome-notice .welcome-text2,
+.notice.notice-success.is-dismissible.welcome-notice .welcome-text3{   
+    color: #242628;;
+}
+.notice.notice-success.is-dismissible.welcome-notice .welcome-text1{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+.notice.notice-success.is-dismissible.welcome-notice .welcome-text2{
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+}
+.notice.notice-success.is-dismissible.welcome-notice .welcome-text3{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.notice.notice-success.is-dismissible.welcome-notice .notice-img2 img{
+    width: 100%;
+}
+.notice.notice-success.is-dismissible.welcome-notice{
+    background: transparent linear-gradient(276deg, #F1FFE1 0%, #CDE5F4 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.notice.notice-success.is-dismissible.welcome-notice .welcome-text1,.notice.notice-success.is-dismissible.welcome-notice .welcome-text2,
+.notice.notice-success.is-dismissible.welcome-notice .welcome-text3,.notice.notice-success.is-dismissible.welcome-notice span a,
+.theme-info-left h2,.theme-info h4,.coupen-section .disc-text, .coupen-section .coupen-text,.coupen-section h1,.coupen-section h5,.coupen-info .info-link a{
+    font-family: "Poppins", sans-serif;
+}
+
 .appearance_page_auto_car_dealership_guide .notice.notice-success.is-dismissible.welcome-notice{
     display: none;
 }
@@ -367,6 +430,73 @@ button.btn.btn-success {
     border: none;
     cursor: pointer;
 }
+/*coupen code css*/
+.coupen-section .disc-text,.coupen-section .coupen-text,.theme-info h4,.coupen-section h1{
+    font-weight: 500;
+}
+.theme-info-left h2{
+    font-size: 32px;
+    font-weight: 800 !important;   
+}
+.coupen-section .disc-text,.coupen-section .coupen-text{
+    font-size: 12px;
+}
+.coupen-section .coupen-code{
+    font-size: 14px;
+    margin: 0;
+}
+.theme-info h4{
+    line-height: 1.2;
+    font-size: 18px;
+    letter-spacing: 0;
+}
+.theme-info h2,.theme-info h4,.dicount-row h5,.dicount-row h1{
+    color: #fff;
+}
+.dicount-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.coupen-info h5{
+    text-align: center;   
+}
+.coupen-info .coupen-text{
+    margin:5px 0;
+}
+.update-now .info-link,.coupen-section .disc-text{
+    margin: 0;
+}
+.coupen-section h1{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.coupen-info .info-link a{
+    padding: 6px 12px !important;
+    background: #fff !important;
+    color: #000 !important;
+    line-height: 1.2 !important;
+    border-radius: 0 !important;
+    font-size: 13px !important;
+}
+.coupen-info .info-link a:hover{
+    background: #fff !important;
+    color: #000 !important;
+}
+.theme-info .theme-info-left{
+    width: 60%;
+}
+.theme-info .theme-info-right{
+    width: 40%;
+}
+.coupen-section{
+    background: transparent linear-gradient(145deg, #aa0606 10%, #e9363bed 70%, #08223B 55%, #08223B 100%);
+    padding: 10px 20px;
+    box-shadow: 0px 3px 8px #00000082;
+}
+.coupen-section .logo-right{
+    align-self: center;
+}
 /* theme bundle */
 #get_bundle .feature p:before{
   background: url(../images/tick.svg) no-repeat;
@@ -400,13 +530,6 @@ button.tablinks{
 .pro-links a {
     margin-bottom: 10px;
 }
-@media screen and (max-width: 1200px){
-    #get_bundle .col-right-pro,#get_bundle .col-left-pro,#pro_theme .col-left-pro,#pro_theme .col-right-pro,#pro_theme .col-right-pro{
-        width: 100% !important;
-    }
-
-}
-
 /*tab css*/
 .tab-sec{
     display: flex;
@@ -436,38 +559,44 @@ button.tablinks {
 .logo-section img{
     width: 210px;
     object-fit: contain;
-    margin-top: 0px;
-    padding: 10px;
+    height: 100%;
+    box-shadow: 0px 3px 6px #00000029;
 }
 .coupen-section{
     display: flex;
-    width: 35% !important;
-    background: #fff;
+    width: 37% !important;
     border: 1px solid #c3c4c7;
-}
-.coupen-section .disc-text{
-    color: #F30F0A;
 }
 .coupen-section .logo-img img{
     height: 30px;
     width: 100px;
     margin-top: 10px;
 }
-.logo-section,.logo-right{
-    flex-basis: 40%;
+.logo-section{
+    flex-basis: 37%;
+    align-self: center;
+}
+.logo-right{
+    flex-basis: 63%;
 }
 .logo-img{
     flex-basis: 20%;
 }
 .sshot-section{
-    width: 60%;
+    width: 57%;
 }
 .update-now .info-link {
     text-align: left !important;
 }
-
+#lite_theme{
+    padding: 15px;
+}
 @media screen and (max-width: 1300px){
-    .tab-sec{
+    #get_bundle .col-right-pro,#get_bundle .col-left-pro,#theme_pro .col-left-pro,#theme_pro .col-right-pro {
+        width: 90%;
+        float: none;
+    }
+     .tab-sec{
         display: block;
     }
     .tab-sec .tab{
@@ -480,11 +609,17 @@ button.tablinks {
 }
 @media screen and (max-width: 1198px){
     .sshot-section,.coupen-section{
-        width: 80% !important;
+        width: 70% !important;
         float: left;
     }
 }
-@media screen and (min-width: 1199px) and (max-width: 1440px){
+@media screen and (min-width: 1199px) and (max-width: 1399px){
+    .sshot-section,.coupen-section{
+        width: 60% !important;
+        float: left;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1800px){
     .coupen-section{
         width: 48% !important;
     }

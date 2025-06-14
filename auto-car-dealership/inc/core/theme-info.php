@@ -35,21 +35,30 @@ function auto_car_dealership_theme_page_display() {
 			</div>
 			<div class="logo-right">			
 				<div class="update-now">
-					<h4><?php esc_html_e('Try Premium ','auto-car-dealership'); ?></h4>
-					<h4><?php esc_html_e('Auto Car Dealership Theme','auto-car-dealership'); ?></h4>
-					<h4 class="disc-text"><?php esc_html_e('at 20% Discount','auto-car-dealership'); ?></h4>
-					<h4><?php esc_html_e('Use Coupon','auto-car-dealership'); ?> ( <span><?php esc_html_e('vwpro20','auto-car-dealership'); ?></span> ) </h4> 
-					<div class="info-link">
-						<a href="<?php echo esc_url( AUTO_CAR_DEALERSHIP_BUY_NOW ); ?>" target="_blank"> <?php esc_html_e( 'Upgrade to Pro', 'auto-car-dealership' ); ?></a>
-					</div>
+					<div class="theme-info">
+						<div class="theme-info-left">
+							<h2><?php esc_html_e('TRY PREMIUM','auto-car-dealership'); ?></h2>
+							<h4><?php esc_html_e('AUTO CAR DEALERSHIP THEME','auto-car-dealership'); ?></h4>
+						</div>	
+						<div class="theme-info-right"></div>
+					</div>	
+					<div class="dicount-row">
+						<div class="disc-sec">	
+							<h5 class="disc-text"><?php esc_html_e('GET THE FLAT DISCOUNT OF','auto-car-dealership'); ?></h5>
+							<h1 class="disc-per"><?php esc_html_e('20%','auto-car-dealership'); ?></h1>	
+						</div>
+						<div class="coupen-info">
+							<h5 class="coupen-code"><?php esc_html_e('"VWPRO20"','auto-car-dealership'); ?></h5>
+							<h5 class="coupen-text"><?php esc_html_e('USE COUPON CODE','auto-car-dealership'); ?></h5>
+							<div class="info-link">						
+								<a href="<?php echo esc_url( AUTO_CAR_DEALERSHIP_BUY_NOW ); ?>" target="_blank"> <?php esc_html_e( 'UPGRADE TO PRO', 'auto-car-dealership' ); ?></a>
+							</div>	
+						</div>	
+					</div>				
 				</div>
-			</div>   
-			<div class="logo-img">
-				<img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/final-logo.png" alt="" />
-			</div>	
-	    </div>
-
-	
+			</div> 
+			
+	    </div>	
 
 	    <div class="tab-sec">
 			<div class="tab">

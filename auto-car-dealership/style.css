@@ -4,7 +4,7 @@ Theme URI: https://www.vwthemes.com/products/free-car-dealership-wordpress-theme
 Author: VWThemes
 Author URI: https://www.vwthemes.com/
 Description: Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/
-Version: 1.5.3
+Version: 1.5.4
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 7.2
@@ -1466,7 +1466,7 @@ a.page-numbers{
   background: #000;
     color: #fff;
 }
-.archive .wp-block-post-template li{
+.archive .wp-block-post-template li,.blog .wp-block-post-template li{
   box-shadow: 0 5px 10px 0 rgb(0 0 0 / 16%), 0 0 0 0px rgb(0 0 0 / 8%);
 }
 .archive .wp-block-post-template figure{
@@ -1479,24 +1479,27 @@ a.page-numbers{
       .wc-block-grid__products{
         display: flex !important;
       }
-      .blog .wp-block-latest-posts__list li,.page-template-blog-sidebar-on-left .wp-block-latest-posts li{
-        width: 100% !important;
+      .not-found-heading{
+        font-size: 50px !important;
       }
-      .wc-block-product-template__responsive,.blog .wp-block-post-template,.archive .wp-block-post-template,.page-template-blog-sidebar-on-left .wp-block-latest-posts{
+      .wc-block-product-template__responsive,ul.wc-block-grid__products,.blog .wp-block-post-template,.archive .wp-block-post-template,.page-template-blog-sidebar-on-right .wp-block-post-template,.page-template-blog-sidebar-on-left .wp-block-post-template{
         display: block;
         grid-template-columns: auto !important;
       }
-      li.wc-block-product,.blog .wp-block-post-template li,.archive .wp-block-post-template li{
+      li.wc-block-product,.blog .wp-block-post-template li,.archive .wp-block-post-template li,.page-template-blog-sidebar-on-right .wp-block-post-template li,.page-template-blog-sidebar-on-left .wp-block-post-template li{
         margin-bottom: 20px;
-     }
+      }
+      .wp-block-woocommerce-related-products .wp-block-post,.page-template-blog-sidebar-on-left .wp-block-post,.page-template-blog-sidebar-on-right .wp-block-post{
+        width: calc(100% - 1em)!important;
+      }
 }
 @media screen and (min-width: 721px) and (max-width: 991px){
-  .wc-block-product-template.wc-block-product-template,ul.wc-block-grid__products,ul.wc-block-product-template__responsive.columns-3.wc-block-product-template.wp-block-woocommerce-product-template,u
-  .blog .wp-block-post-template,.archive .wp-block-post-template{
+  .wc-block-product-template.wc-block-product-template,ul.wc-block-grid__products,ul.wc-block-product-template__responsive.columns-3.wc-block-product-template.wp-block-woocommerce-product-template,
+  .blog .wp-block-post-template,.archive .wp-block-post-template,.page-template-blog-sidebar-on-right .wp-block-post-template,.page-template-blog-sidebar-on-left .wp-block-post-template{
     grid-template-columns: repeat(2, minmax(max(150px, calc(50% - 0.83333em)), 1fr));
     gap: 0.83333em;
   }
-  .wp-block-woocommerce-related-products .wp-block-post{
+  .wp-block-woocommerce-related-products .wp-block-post,.blog .wp-block-latest-posts__list li{
     width: calc(50% - 1em)!important;
   }
 }
