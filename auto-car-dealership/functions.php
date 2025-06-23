@@ -60,41 +60,9 @@ if ( ! function_exists( 'auto_car_dealership_setup' ) ) :
 				'primary' => __( 'Primary Navigation', 'auto-car-dealership' ),
 			)
 		);
-		
-	// Theme Activation Notice
-	global $pagenow;
-
-	if (is_admin() && ('themes.php' == $pagenow) && isset( $_GET['activated'] )) {
-		add_action('admin_notices', 'auto_car_dealership_activation_notice');
-	}
- 
 	}
 endif;
 add_action( 'after_setup_theme', 'auto_car_dealership_setup' );
-
-// Notice after Theme Activation
-function auto_car_dealership_activation_notice() {
-  echo '<div class="notice notice-success is-dismissible welcome-notice">';
-    echo '<div class="notice-row">';
-      echo '<div class="notice-text">';
-        echo '<p class="welcome-text1">'. esc_html__( '🎉 Welcome to VW Themes,', 'auto-car-dealership' ) .'</p>';
-        echo '<p class="welcome-text2">'. esc_html__( 'You are now using the Auto Car Dealership, a beautifully designed theme to kickstart your website.', 'auto-car-dealership' ) .'</p>';
-        echo '<p class="welcome-text3">'. esc_html__( 'To help you get started quickly, use the options below:', 'auto-car-dealership' ) .'</p>';
-        echo '<span class="import-btn"><a href="'. esc_url( admin_url( 'themes.php?page=auto-car-dealership-info' ) ) .'" class="button button-primary">'. esc_html__( 'GET STARTED', 'auto-car-dealership' ) .'</a></span>';
-        echo '<span class="demo-btn"><a href="'. esc_url( 'https://www.vwthemes.net/auto-car-dealership/' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'VIEW DEMO', 'auto-car-dealership' ) .'</a></span>';
-        echo '<span class="upgrade-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/car-wordpress-theme' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'UPGRADE TO PRO', 'auto-car-dealership' ) .'</a></span>';
-        echo '<span class="bundle-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/wp-theme-bundle' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'BUNDLE OF 350+ THEMES', 'auto-car-dealership' ) .'</a></span>';
-      echo '</div>';
-      echo '<div class="notice-img1">';
-        echo '<img src="' . esc_url( get_template_directory_uri() . '/images/arrow-notice.png' ) . '" width="180" alt="' . esc_attr__( 'Auto Car Dealership', 'auto-car-dealership' ) . '" />';
-      echo '</div>';
-      echo '<div class="notice-img2">';
-        echo '<img src="' . esc_url( get_template_directory_uri() . '/images/bundle-notice.png' ) . '" width="180" alt="' . esc_attr__( 'Auto Car Dealership', 'auto-car-dealership' ) . '" />';
-      echo '</div>';  
-    echo '</div>';  
-  echo '</div>';
-}
-
 
 if ( ! function_exists( 'auto_car_dealership_fonts_url' ) ) :
 	/**
@@ -194,9 +162,12 @@ function auto_car_dealership_init_setup() {
 	require_once get_template_directory() . '/inc/core/template-functions.php';
 
 	/**
-	 * TGM
+	 * notice
 	 */
-	require_once get_template_directory() . '/inc/tgm/tgm.php';
+	require get_template_directory() . '/inc/core/activation-notice.php';
+
+	// TGM
+	require get_template_directory() . '/inc/tgm/plugin-activation.php';
 
 	/**
 	 * Section Pro
@@ -217,6 +188,41 @@ function auto_car_dealership_init_setup() {
 }
 add_action( 'after_setup_theme', 'auto_car_dealership_init_setup' );
 
+/* Enqueue admin-notice-script js */
+add_action('admin_enqueue_scripts', function ($hook) {
+    if ($hook !== 'appearance_page_auto-car-dealership') return;
+
+    wp_enqueue_script('admin-notice-script', get_template_directory_uri() . 'inc/core/js/admin-notice-script.js', ['jquery'], null, true);
+    wp_localize_script('admin-notice-script', 'pluginInstallerData', [
+        'ajaxurl'     => admin_url('admin-ajax.php'),
+        'nonce'       => wp_create_nonce('install_plugin_nonce'), // Match this with PHP nonce check
+        'redirectUrl' => admin_url('themes.php?page=auto-car-dealership-info'),
+    ]);
+});
+
+add_action('wp_ajax_check_plugin_activation', function () {
+    if (!isset($_POST['plugin']) || empty($_POST['plugin'])) {
+        wp_send_json_error(['message' => 'Missing plugin identifier']);
+    }
+
+    include_once ABSPATH . 'wp-admin/includes/plugin.php';
+
+    // Map plugin identifiers to their main files
+    $auto_car_dealership_plugin_map = [
+        'ibtana'               => 'ibtana-visual-editor/plugin.php',
+    ];
+
+    $auto_car_dealership_requested_plugin = sanitize_text_field($_POST['plugin']);
+
+    if (!isset($auto_car_dealership_plugin_map[$auto_car_dealership_requested_plugin])) {
+        wp_send_json_error(['message' => 'Invalid plugin']);
+    }
+
+    $auto_car_dealership_plugin_file = $auto_car_dealership_plugin_map[$auto_car_dealership_requested_plugin];
+    $auto_car_dealership_is_active   = is_plugin_active($auto_car_dealership_plugin_file);
+
+    wp_send_json_success(['active' => $auto_car_dealership_is_active]);
+});
 
 /* Here you trigger the ajax handler function using jQuery */
 

@@ -252,11 +252,14 @@ Auto Car Dealership is a spectacular block based theme for websites designed for
 - Tested upto WP v6.8.
 
 = 1.5.4 =
-* Updated activation notice.
+- Updated activation notice.
 - Resolved error for blog page.
 - Updated archive page.
 - Added cover-with-index-title.php cover-with-archive-title.php.
 - Updated pot file.
+
+= 1.5.5 =
+- Added auto plugin activation of required plugins on get started button.
 
 == Copyright ==
 
