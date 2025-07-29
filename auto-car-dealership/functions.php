@@ -115,6 +115,7 @@ function auto_car_dealership_scripts() {
 	if (get_theme_mod('auto_car_dealership_animation', true) == true){
 		wp_enqueue_script( 'auto-car-dealership-jquery-wow', esc_url(get_template_directory_uri()) . '/js/wow.js', array('jquery') );
 		wp_enqueue_style( 'auto-car-dealership-animate-css', esc_url(get_template_directory_uri()).'/css/animate.css' );
+		wp_enqueue_script( 'auto-car-dealership-custom-scripts', get_template_directory_uri() . '/js/custom.js', array('jquery'),'' ,true );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'auto_car_dealership_scripts' );

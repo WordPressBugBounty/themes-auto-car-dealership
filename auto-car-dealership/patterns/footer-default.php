@@ -97,3 +97,9 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div></div>
 <!-- /wp:cover -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"scroll-top-box","style":{"spacing":{"padding":{"left":"0","right":"0","top":"0","bottom":"0"}}}} -->
+<div class="wp-block-button scroll-top-box"><a class="wp-block-button__link wp-element-button" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><img class="wp-image-6" style="width: 20px;" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/scroll-top.png" alt=""></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->

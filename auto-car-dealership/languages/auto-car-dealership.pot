@@ -2,20 +2,22 @@
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Auto Car Dealership 1.5.4\n"
+"Project-Id-Version: Auto Car Dealership 1.5.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/auto-car-dealership\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-27T16:58:00+05:30\n"
+"POT-Creation-Date: 2025-07-28T17:14:20+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: auto-car-dealership\n"
 
 #. Theme Name of the theme
 #: style.css
+#: inc/core/activation-notice.php:68
+#: inc/core/activation-notice.php:72
 #: inc/core/theme-info.php:7
 msgid "Auto Car Dealership"
 msgstr ""
@@ -44,69 +46,49 @@ msgstr ""
 msgid "Primary Navigation"
 msgstr ""
 
-#: functions.php:78
-msgid "Thank you for choosing Auto Car Dealership. Would like to have you on our Welcome page so that you can read all the benefits of our Auto Car Dealership."
-msgstr ""
-
-#: functions.php:79
-msgid "GET STARTED"
-msgstr ""
-
-#: functions.php:80
-msgid "VIEW DEMO"
-msgstr ""
-
-#: functions.php:81
-msgid "UPGRADE PRO"
-msgstr ""
-
-#: functions.php:82
-msgid "THEME BUNDLE"
-msgstr ""
-
 #. Translators: If there are characters in your language that are not supported by Poppins, translate this to 'off'. Do not translate into your own language.
-#: functions.php:103
+#: functions.php:84
 msgctxt "Poppins font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:193
+#: functions.php:178
 msgid "https://www.vwthemes.com/products/car-wordpress-theme"
 msgstr ""
 
-#: functions.php:194
+#: functions.php:179
 msgid "https://wordpress.org/support/theme/auto-car-dealership/"
 msgstr ""
 
-#: functions.php:195
+#: functions.php:180
 msgid "https://wordpress.org/support/theme/auto-car-dealership/reviews/"
 msgstr ""
 
-#: functions.php:196
+#: functions.php:181
 msgid "https://www.vwthemes.net/auto-car-dealership/"
 msgstr ""
 
-#: functions.php:197
+#: functions.php:182
 msgid "https://preview.vwthemesdemo.com/docs/vw-automobile-pro/"
 msgstr ""
 
-#: functions.php:198
+#: functions.php:183
 msgid "https://preview.vwthemesdemo.com/docs/free-auto-car-dealership/"
 msgstr ""
 
-#: functions.php:199
+#: functions.php:184
 msgid "https://www.vwthemes.com/faqs/"
 msgstr ""
 
-#: functions.php:200
+#: functions.php:185
 msgid "https://www.vwthemes.com/contact/"
 msgstr ""
 
-#: functions.php:201
+#: functions.php:186
 msgid "https://www.vwthemes.com/products/wp-theme-bundle"
 msgstr ""
 
-#: functions.php:202
+#: functions.php:187
 msgid "https://preview.vwthemesdemo.com/docs/theme-bundle/"
 msgstr ""
 
@@ -215,6 +197,35 @@ msgstr ""
 msgid "Page Banner Section"
 msgstr ""
 
+#: inc/core/activation-notice.php:10
+msgid "🎉 Welcome to VW Themes,"
+msgstr ""
+
+#: inc/core/activation-notice.php:11
+msgid "You are now using the Auto Car Dealership, a beautifully designed theme to kickstart your website."
+msgstr ""
+
+#: inc/core/activation-notice.php:12
+msgid "To help you get started quickly, use the options below:"
+msgstr ""
+
+#: inc/core/activation-notice.php:16
+msgid "GET STARTED"
+msgstr ""
+
+#: inc/core/activation-notice.php:50
+msgid "VIEW DEMO"
+msgstr ""
+
+#: inc/core/activation-notice.php:56
+#: inc/core/theme-info.php:54
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: inc/core/activation-notice.php:62
+msgid "BUNDLE OF 350+ THEMES"
+msgstr ""
+
 #: inc/core/theme-info.php:7
 msgid "Automobile Theme"
 msgstr ""
@@ -249,10 +260,6 @@ msgstr ""
 
 #: inc/core/theme-info.php:52
 msgid "USE COUPON CODE"
-msgstr ""
-
-#: inc/core/theme-info.php:54
-msgid "UPGRADE TO PRO"
 msgstr ""
 
 #: inc/core/theme-info.php:65
@@ -1212,7 +1219,7 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: inc/tgm/tgm.php:10
+#: inc/tgm/plugin-activation.php:62
 msgid "Ibtana - WordPress Website Builder"
 msgstr ""
 

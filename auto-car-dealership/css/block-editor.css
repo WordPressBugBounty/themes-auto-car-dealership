@@ -568,3 +568,28 @@ p.form-submit.wp-block-button input.wp-block-button__link.wp-element-button {
   color: #fff;
   border: none;
 }
+
+/* Scroll to Top */
+.scroll-top-box {
+  display: none; /* Initially hidden */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--wp--preset--color--primary)!important;
+  color: white;
+  border: none;
+  border-radius: 50% !important;
+  padding: 8px 16px 13px !important; 
+  cursor: pointer;
+  z-index: 1000; 
+  transition: opacity 0.3s;
+}
+.scroll-top-box .wp-block-button__link.wp-element-button{
+  border-radius: 50% !important;
+  padding: 0!important;
+  margin: 0 !important;
+}
+.scroll-top-box .wp-block-button__link,
+.scroll-top-box .wp-block-button__link:hover{
+  background-color: var(--wp--preset--color--primary) !important;
+}

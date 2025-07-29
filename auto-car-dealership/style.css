@@ -4,7 +4,7 @@ Theme URI: https://www.vwthemes.com/products/free-car-dealership-wordpress-theme
 Author: VWThemes
 Author URI: https://www.vwthemes.com/
 Description: Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/
-Version: 1.5.6
+Version: 1.5.7
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 7.2
@@ -875,7 +875,30 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
   color: var(--wp--preset--color--primary) !important;
   border-color: var(--wp--preset--color--secondary);
 }
-
+/* Scroll to Top */
+.scroll-top-box {
+  display: none; /* Initially hidden */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--wp--preset--color--primary)!important;
+  color: white;
+  border: none;
+  border-radius: 50% !important;
+  padding: 8px 16px 13px !important; 
+  cursor: pointer;
+  z-index: 1000; 
+  transition: opacity 0.3s;
+}
+.scroll-top-box .wp-block-button__link.wp-element-button{
+  border-radius: 50% !important;
+  padding: 0!important;
+  margin: 0 !important;
+}
+.scroll-top-box .wp-block-button__link,
+.scroll-top-box .wp-block-button__link:hover{
+  background-color: var(--wp--preset--color--primary) !important;
+}
 /*404 Page CSS*/
 .wp-block-search__button {
   border: 0;
@@ -883,7 +906,7 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
 }
 
 /*Archive Page*/
-.archive-page ,.theme-sidebar {
+.archive-page  {
   padding-top: 50px !important;
 }
 .comment-body .reply a {
@@ -1038,8 +1061,14 @@ figure.alignfull.wp-block-post-featured-image, .wp-block-audio, .wp-block-audio 
     clip-path: none;
     padding: 10px;
   }
-  .header-section .logo, .header-section .topbar-section {
+  .header-section .logo, .header-section .topbar-section,.footer-box   {
     text-align: center;
+  }
+  .footer-box ul li{
+    margin: 0 auto;
+  }
+  .footer-box .wp-block-buttons{
+    justify-content: center;
   }
   .header-section .topbar-section {
     padding: 0 15px 15px ;
@@ -1142,7 +1171,7 @@ figure.alignfull.wp-block-post-featured-image, .wp-block-audio, .wp-block-audio 
    .footer-section .wp-block-columns.copyright-section .wp-block-column:nth-child(2) {
     flex-basis: 30% !important;
   }
-  .choose-us-section .wp-block-columns, .choose-us-section h2, .choose-us-section .title-img, .brand-section .wp-block-columns, .featured-car-section .wp-block-columns, .blog-section ul.wp-block-latest-posts__list, .blog-section .head-text, .gallery-section .wp-block-columns, .footer-section .wp-block-columns, .footer-section .wp-block-columns.copyright-section .wp-block-column:first-child, .footer-section .wp-block-columns.copyright-section .wp-block-column:nth-child(2) {
+  .choose-us-section .wp-block-columns, .choose-us-section h2, .choose-us-section .title-img, .brand-section .wp-block-columns, .featured-car-section .wp-block-columns, .blog-section ul.wp-block-latest-posts__list, .blog-section .head-text, .gallery-section .wp-block-columns,  .footer-section .wp-block-columns.copyright-section .wp-block-column:first-child, .footer-section .wp-block-columns.copyright-section .wp-block-column:nth-child(2) {
     padding: 0;
   }
   .footer-section .wp-block-columns:not(.is-not-stacked-on-mobile) .footer-box {
@@ -1178,13 +1207,13 @@ figure.alignfull.wp-block-post-featured-image, .wp-block-audio, .wp-block-audio 
 }
 
 @media screen and (max-width: 900px) {
-  .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
+  .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content,.footer-box .wp-block-navigation__responsive-container-open:not(.always-shown) {
     display: none; 
   }
-  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+  .wp-block-navigation__responsive-container-open:not(.always-shown),.footer-box .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
     display: block; 
   }
-  .header-section .menu-section .wp-block-navigation ul li a,.footer-section .wp-block-navigation ul li a {
+  .header-section .menu-section .wp-block-navigation ul li a{
     color: #000 !important;
     padding: 10px !important;
   }
