@@ -197,7 +197,7 @@ add_action('admin_enqueue_scripts', function ($hook) {
     wp_localize_script('admin-notice-script', 'pluginInstallerData', [
         'ajaxurl'     => admin_url('admin-ajax.php'),
         'nonce'       => wp_create_nonce('install_plugin_nonce'), // Match this with PHP nonce check
-        'redirectUrl' => admin_url('themes.php?page=auto-car-dealership-info'),
+        'redirectUrl' => admin_url('admin.php?page=auto-car-dealership-info'),
     ]);
 });
 
@@ -256,4 +256,18 @@ function example_cache_purge_callback() {
     echo $response;
     wp_die(); /* this is required to terminate immediately and return a proper response */
 }
-?>
+
+// Admin notice code START
+function auto_car_dealership_dismissed_notice() {
+	update_option( 'auto_car_dealership_admin_notice', true );
+}
+add_action( 'wp_ajax_auto_car_dealership_dismissed_notice', 'auto_car_dealership_dismissed_notice' );
+
+
+//After Switch theme function
+add_action('after_switch_theme', 'auto_car_dealership_getstart_setup_options');
+function auto_car_dealership_getstart_setup_options () {
+    update_option('auto_car_dealership_admin_notice', false );
+}
+// Admin notice code END
+

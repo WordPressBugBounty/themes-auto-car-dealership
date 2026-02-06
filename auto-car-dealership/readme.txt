@@ -3,7 +3,7 @@
 Contributors: VWThemes
 Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-site-editing, style-variations, translation-ready, block-patterns, sticky-post, threaded-comments, template-editing, blog, e-commerce, photography
 Requires at least: 5.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -279,6 +279,32 @@ Auto Car Dealership is a spectacular block based theme for websites designed for
 = 1.6.0 =
 * Resolved minor css error.
 
+= 1.6.1 =
+* Resolved minor bugs.
+
+= 1.6.2 =
+* Added more style version.
+* Minor fix or small update.
+
+= 1.6.3 =
+* Resolved css error.
+
+= 1.6.4 =
+* Tested Upto 6.9.
+* Resolved activation notice dismiss issue.
+* Changed bundle count.
+* Updated pot file.
+* Added new getstarted.
+
+= 1.6.5 =
+* Resolved minor bug.
+
+= 1.6.6 =
+* Added search template.
+* Added search pattern.
+* Updated pot file.
+* Added border and hover effect on single post page.
+* Updated tgm plugin activation file.
 
 == Copyright ==
 

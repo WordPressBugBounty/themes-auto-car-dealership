@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Sunny Orange",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#D96500",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#ffb703",
+          "name": "Secondary"
+        },
+        {
+          "color": "#1b1b1b",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#fff8e7",
+          "name": "Background",
+          "slug": "background"
+        }
+      ]
+    }
+  }
+}

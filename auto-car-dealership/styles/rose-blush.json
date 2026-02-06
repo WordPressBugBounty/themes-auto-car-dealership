@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Rose Blush",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#d16ba5",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#ffafcc",
+          "name": "Secondary"
+        },
+        {
+          "color": "#3d3d3d",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#fff5f7",
+          "name": "Background",
+          "slug": "background"
+        }
+      ]
+    }
+  }
+}
