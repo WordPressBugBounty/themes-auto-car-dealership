@@ -56,6 +56,13 @@
       "postTypes": [
         "post"
       ]
+    },
+    {
+      "name": "single-post-with-no-sidebar",
+      "title": "Single Post (With no sidebar)",
+      "postTypes": [
+        "post"
+      ]
     }
   ],
   "templateParts": [{

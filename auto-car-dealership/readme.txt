@@ -306,6 +306,12 @@ Auto Car Dealership is a spectacular block based theme for websites designed for
 * Added border and hover effect on single post page.
 * Updated tgm plugin activation file.
 
+= 1.6.7 =
+* Added single post with no sidebar template.
+* Added hover effect and animation on single post and shop page.
+* Updated pot file.
+* Updated rtl file.
+
 == Copyright ==
 
 * Based on Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org. Twenty Twenty-Two is distributed under the terms of the GNU GPL.

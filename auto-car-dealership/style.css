@@ -4,7 +4,7 @@ Theme URI: https://www.vwthemes.com/products/free-car-dealership-wordpress-theme
 Author: VWThemes
 Author URI: https://www.vwthemes.com/
 Description: Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/
-Version: 1.6.6
+Version: 1.6.7
 Requires at least: 5.9
 Tested up to: 6.9
 Requires PHP: 7.2
@@ -1731,4 +1731,58 @@ footer .footer-box{
 }
 .wp-block-search__button-inside{
   margin-top: 40px !important;
+
+/* shop page image animation */
+.wp-block-woocommerce-product-image {
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+.wp-block-woocommerce-product-image img {
+    display: block;
+    width: 100% !important;
+    height: auto;
+    transition: transform 0.6s ease;
+}
+.wp-block-woocommerce-product-image:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15); 
+}
+.wp-block-woocommerce-product-image:hover img {
+    transform: scale(1.08); 
+}
+@media (hover: none) {
+    .wp-block-woocommerce-product-image:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    .wp-block-woocommerce-product-image:hover img {
+        transform: none;
+    }
+}
+/* single shop page image animation */
+.woocommerce-product-gallery__image {
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.woocommerce-product-gallery__image img {
+    transition: transform 0.6s ease;
+}
+.woocommerce-product-gallery__image:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.15);
+}
+.woocommerce-product-gallery__image:hover img {
+    transform: scale(1.08);
+}
+.woocommerce-product-gallery__image {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: productImageReveal 0.9s ease-out forwards;
+}
+
+@keyframes productImageReveal {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}}
