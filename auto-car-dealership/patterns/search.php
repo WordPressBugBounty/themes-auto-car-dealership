@@ -8,11 +8,14 @@
 ?>
 
 
-<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"50px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"0px","bottom":"0px","left":"0px","right":"0px"}}},"layout":{"inherit":true,"type":"constrained","contentSize":"80%"}} -->
+<main class="wp-block-group" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"50px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-bottom:50px"><!-- wp:search {"label":"Search","showLabel":false,"width":75,"widthUnit":"%","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"align":"center","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dprimary)"}},"textColor":"light"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"70%"} -->
+<div class="wp-block-column" style="flex-basis:70%"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:query {"queryId":3,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[],"format":[]}} -->
 <div class="wp-block-query"><!-- wp:post-template {"className":"style-post-box","layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:group {"style":{"shadow":"var:preset|shadow|natural"},"layout":{"type":"constrained"}} -->
@@ -39,13 +42,20 @@
 <!-- wp:query-no-results -->
 <!-- wp:group {"className":"no-results","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group no-results" style="padding-top:60px;padding-bottom:60px"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html__(' No results found', 'auto-car-dealership'); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html__('No results found', 'auto-car-dealership' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"> <?php echo esc_html__(' We could not find any posts matching your search. Try different keywords', 'auto-car-dealership'); ?></p>
+<p class="has-text-align-center"> <?php echo esc_html__('We could not find any posts matching your search. Try different keywords', 'auto-car-dealership' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"30%"} -->
+<div class="wp-block-column" style="flex-basis:30%"><!-- wp:template-part {"slug":"sidebar","theme":"auto-car-dealership","area":"uncategorized"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></main>
 <!-- /wp:group -->

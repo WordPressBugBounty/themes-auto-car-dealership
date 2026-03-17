@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-02-17T12:05:25+05:30\n"
+"POT-Creation-Date: 2026-03-16T17:52:36+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: auto-car-dealership\n"
 
 #. Theme Name of the theme
@@ -822,13 +822,11 @@ msgstr ""
 
 #. translators: %s: plugin name.
 #: inc/tgm/class-tgm-plugin-activation.php:343
-#, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #. translators: %s: plugin name.
 #: inc/tgm/class-tgm-plugin-activation.php:345
-#, php-format
 msgid "Updating Plugin: %s"
 msgstr ""
 
@@ -838,7 +836,6 @@ msgstr ""
 
 #. translators: 1: plugin name(s).
 #: inc/tgm/class-tgm-plugin-activation.php:348
-#, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
@@ -846,7 +843,6 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/tgm/class-tgm-plugin-activation.php:354
-#, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
@@ -854,7 +850,6 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/tgm/class-tgm-plugin-activation.php:360
-#, php-format
 msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
 msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
 msgstr[0] ""
@@ -862,7 +857,6 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/tgm/class-tgm-plugin-activation.php:366
-#, php-format
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
@@ -870,7 +864,6 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/tgm/class-tgm-plugin-activation.php:372
-#, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -878,7 +871,6 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/tgm/class-tgm-plugin-activation.php:378
-#, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -924,19 +916,16 @@ msgstr[1] ""
 
 #. translators: 1: plugin name.
 #: inc/tgm/class-tgm-plugin-activation.php:403
-#, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/tgm/class-tgm-plugin-activation.php:405
-#, php-format
 msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
 msgstr ""
 
 #. translators: 1: dashboard link.
 #: inc/tgm/class-tgm-plugin-activation.php:407
-#, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
@@ -985,7 +974,6 @@ msgstr ""
 
 #. translators: %s: version number
 #: inc/tgm/class-tgm-plugin-activation.php:2112
-#, php-format
 msgid "TGMPA v%s"
 msgstr ""
 
@@ -1035,14 +1023,12 @@ msgstr ""
 
 #. translators: 1: install status, 2: update status
 #: inc/tgm/class-tgm-plugin-activation.php:2490
-#, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
 #. translators: 1: number of plugins.
 #: inc/tgm/class-tgm-plugin-activation.php:2536
-#, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -1051,7 +1037,6 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/tgm/class-tgm-plugin-activation.php:2540
-#, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1059,7 +1044,6 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/tgm/class-tgm-plugin-activation.php:2544
-#, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1067,7 +1051,6 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/tgm/class-tgm-plugin-activation.php:2548
-#, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1112,19 +1095,16 @@ msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/tgm/class-tgm-plugin-activation.php:2751
-#, php-format
 msgid "Install %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/tgm/class-tgm-plugin-activation.php:2756
-#, php-format
 msgid "Update %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/tgm/class-tgm-plugin-activation.php:2762
-#, php-format
 msgid "Activate %2$s"
 msgstr ""
 
@@ -1174,19 +1154,16 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/tgm/class-tgm-plugin-activation.php:3655
-#, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #. translators: 1: plugin name, 2: error message.
 #: inc/tgm/class-tgm-plugin-activation.php:3658
-#, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/tgm/class-tgm-plugin-activation.php:3660
-#, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
@@ -1196,7 +1173,6 @@ msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/tgm/class-tgm-plugin-activation.php:3666
-#, php-format
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
@@ -1206,7 +1182,6 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/tgm/class-tgm-plugin-activation.php:3669
-#, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -1216,7 +1191,6 @@ msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/tgm/class-tgm-plugin-activation.php:3674
-#, php-format
 msgid "%1$s installed successfully."
 msgstr ""
 
@@ -1226,7 +1200,6 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/tgm/class-tgm-plugin-activation.php:3677
-#, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -1391,12 +1364,12 @@ msgstr ""
 msgid "Filter by rating"
 msgstr ""
 
-#: patterns/search.php:42
-msgid " No results found"
+#: patterns/search.php:45
+msgid "No results found"
 msgstr ""
 
-#: patterns/search.php:46
-msgid " We could not find any posts matching your search. Try different keywords"
+#: patterns/search.php:49
+msgid "We could not find any posts matching your search. Try different keywords"
 msgstr ""
 
 #: patterns/services-one.php
@@ -1416,6 +1389,116 @@ msgstr ""
 #: patterns/theme-button.php
 msgctxt "Pattern title"
 msgid "Theme Button"
+msgstr ""
+
+#: styles/dark-green.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/gray.json
+#: styles/lavender-dream.json
+#: styles/lite-pink.json
+#: styles/mint-leaf.json
+#: styles/ocean-blue.json
+#: styles/purple.json
+#: styles/rose-blush.json
+#: styles/sunny-orange.json
+#: styles/yellow-color.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/gray.json
+#: styles/lavender-dream.json
+#: styles/lite-pink.json
+#: styles/mint-leaf.json
+#: styles/ocean-blue.json
+#: styles/purple.json
+#: styles/rose-blush.json
+#: styles/sunny-orange.json
+#: styles/yellow-color.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/gray.json
+#: styles/lavender-dream.json
+#: styles/lite-pink.json
+#: styles/mint-leaf.json
+#: styles/ocean-blue.json
+#: styles/purple.json
+#: styles/rose-blush.json
+#: styles/sunny-orange.json
+#: styles/yellow-color.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/gray.json
+#: styles/lavender-dream.json
+#: styles/lite-pink.json
+#: styles/mint-leaf.json
+#: styles/ocean-blue.json
+#: styles/purple.json
+#: styles/rose-blush.json
+#: styles/sunny-orange.json
+#: styles/yellow-color.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/gray.json
+msgctxt "Style variation name"
+msgid "Lite Green"
+msgstr ""
+
+#: styles/lavender-dream.json
+msgctxt "Style variation name"
+msgid "Lavender Dream"
+msgstr ""
+
+#: styles/lite-pink.json
+msgctxt "Style variation name"
+msgid "Lite Pink"
+msgstr ""
+
+#: styles/mint-leaf.json
+msgctxt "Style variation name"
+msgid "Mint Leaf"
+msgstr ""
+
+#: styles/ocean-blue.json
+msgctxt "Style variation name"
+msgid "Ocean Blue"
+msgstr ""
+
+#: styles/purple.json
+msgctxt "Style variation name"
+msgid "Purple"
+msgstr ""
+
+#: styles/rose-blush.json
+msgctxt "Style variation name"
+msgid "Rose Blush"
+msgstr ""
+
+#: styles/sunny-orange.json
+msgctxt "Style variation name"
+msgid "Sunny Orange"
+msgstr ""
+
+#: styles/yellow-color.json
+msgctxt "Style variation name"
+msgid "Yellow"
 msgstr ""
 
 #: theme.json
@@ -1569,66 +1652,6 @@ msgid "Diagonal background to tertiary"
 msgstr ""
 
 #: theme.json
-#: styles/dark-green.json
-#: styles/gray.json
-#: styles/lavender-dream.json
-#: styles/lite-pink.json
-#: styles/mint-leaf.json
-#: styles/ocean-blue.json
-#: styles/purple.json
-#: styles/rose-blush.json
-#: styles/sunny-orange.json
-#: styles/yellow-color.json
-msgctxt "Color name"
-msgid "Primary"
-msgstr ""
-
-#: theme.json
-#: styles/dark-green.json
-#: styles/gray.json
-#: styles/lavender-dream.json
-#: styles/lite-pink.json
-#: styles/mint-leaf.json
-#: styles/ocean-blue.json
-#: styles/purple.json
-#: styles/rose-blush.json
-#: styles/sunny-orange.json
-#: styles/yellow-color.json
-msgctxt "Color name"
-msgid "Secondary"
-msgstr ""
-
-#: theme.json
-#: styles/dark-green.json
-#: styles/gray.json
-#: styles/lavender-dream.json
-#: styles/lite-pink.json
-#: styles/mint-leaf.json
-#: styles/ocean-blue.json
-#: styles/purple.json
-#: styles/rose-blush.json
-#: styles/sunny-orange.json
-#: styles/yellow-color.json
-msgctxt "Color name"
-msgid "Foreground"
-msgstr ""
-
-#: theme.json
-#: styles/dark-green.json
-#: styles/gray.json
-#: styles/lavender-dream.json
-#: styles/lite-pink.json
-#: styles/mint-leaf.json
-#: styles/ocean-blue.json
-#: styles/purple.json
-#: styles/rose-blush.json
-#: styles/sunny-orange.json
-#: styles/yellow-color.json
-msgctxt "Color name"
-msgid "Background"
-msgstr ""
-
-#: theme.json
 msgctxt "Color name"
 msgid "Button color Hover"
 msgstr ""
@@ -1771,54 +1794,4 @@ msgstr ""
 #: theme.json
 msgctxt "Font size name"
 msgid "Huge (Display)"
-msgstr ""
-
-#: styles/dark-green.json
-msgctxt "Style variation name"
-msgid "Red"
-msgstr ""
-
-#: styles/gray.json
-msgctxt "Style variation name"
-msgid "Lite Green"
-msgstr ""
-
-#: styles/lavender-dream.json
-msgctxt "Style variation name"
-msgid "Lavender Dream"
-msgstr ""
-
-#: styles/lite-pink.json
-msgctxt "Style variation name"
-msgid "Lite Pink"
-msgstr ""
-
-#: styles/mint-leaf.json
-msgctxt "Style variation name"
-msgid "Mint Leaf"
-msgstr ""
-
-#: styles/ocean-blue.json
-msgctxt "Style variation name"
-msgid "Ocean Blue"
-msgstr ""
-
-#: styles/purple.json
-msgctxt "Style variation name"
-msgid "Purple"
-msgstr ""
-
-#: styles/rose-blush.json
-msgctxt "Style variation name"
-msgid "Rose Blush"
-msgstr ""
-
-#: styles/sunny-orange.json
-msgctxt "Style variation name"
-msgid "Sunny Orange"
-msgstr ""
-
-#: styles/yellow-color.json
-msgctxt "Style variation name"
-msgid "Yellow"
 msgstr ""

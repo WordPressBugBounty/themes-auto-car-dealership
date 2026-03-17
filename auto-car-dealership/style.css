@@ -4,7 +4,7 @@ Theme URI: https://www.vwthemes.com/products/free-car-dealership-wordpress-theme
 Author: VWThemes
 Author URI: https://www.vwthemes.com/
 Description: Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/
-Version: 1.6.7
+Version: 1.6.8
 Requires at least: 5.9
 Tested up to: 6.9
 Requires PHP: 7.2
@@ -1786,3 +1786,24 @@ footer .footer-box{
         transform: translateY(0);
     }
 }}
+
+/* Smooth Page Reload Animation - Shop Page Only */
+.wc-block-product-template {
+    opacity: 0;
+    transform: translateY(-15px);
+    animation: fadeInUp 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.block-editor-rich-text__editable{
+ margin-right: 20px !important;
+}
