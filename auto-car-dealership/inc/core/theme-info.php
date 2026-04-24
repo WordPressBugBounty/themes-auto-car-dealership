@@ -56,7 +56,7 @@ function auto_car_dealership_theme_page_display() {
 			<div class="lite-theme-tab">
 				<h3><?php esc_html_e( 'Auto Car Dealership', 'auto-car-dealership' ); ?></h3>
 				<hr class="h3hr">
-			  	<p><?php esc_html_e('Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages.','auto-car-dealership'); ?></p>
+			  	<p><?php esc_html_e('Auto Car Dealership is an impressive block-based theme tailored for businesses in the automotive sector, including car rentals, bike rentals, car mechanics, and auto dealerships in the city. This theme comes packed with full site editing features, block patterns, and block editor patterns, allowing for extensive customization. Created by WordPress experts, it utilizes a lightweight design along with the latest HTML codes, which are optimized for faster page load speeds. The elegant and professional appearance effectively showcases your automobile business. With a retina-ready and responsive design, this theme ensures compatibility across all devices. There’s a beautifully designed banner along with sections for displaying information about your team, client testimonials, and much more. Developers have focused on SEO-friendly practices to minimize extra efforts for optimization, and a Call to Action Button (CTA) guides visitors toward the next steps. Additionally, the theme offers multiple social media options and is translation-ready to accommodate various languages. For a closer look, visit the demo at: https://www.vwthemes.net/auto-car-dealership/.','auto-car-dealership'); ?></p>
 			  	<div class="col-left-inner">
 					<div class="pro-links">
 				    	<a href="<?php echo esc_url( admin_url() . 'site-editor.php' ); ?>" target="_blank"><?php esc_html_e('Edit Your Site', 'auto-car-dealership'); ?></a>
@@ -312,10 +312,10 @@ function auto_car_dealership_theme_page_display() {
 				<div class="col-left-pro">
 			   		<h3><?php esc_html_e( 'WP Theme Bundle', 'auto-car-dealership' ); ?></h3>
 			   		<hr class="h3hr">
-			    	<p><?php esc_html_e('Enhance your website effortlessly with our WP Theme Bundle. Get access to 400+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience.','auto-car-dealership'); ?></p>
+			    	<p><?php esc_html_e('Enhance your website effortlessly with our WP Theme Bundle. Get access to 485+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience.','auto-car-dealership'); ?></p>
 			    	<div class="feature">
 			    		<h4><?php esc_html_e( 'Features:', 'auto-car-dealership' ); ?></h4>
-			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('400+ Premium Themes & 5+ Plugins.', 'auto-car-dealership'); ?></p>
+			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('485+ Premium Themes & 5+ Plugins.', 'auto-car-dealership'); ?></p>
 			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('Seamless Integration.', 'auto-car-dealership'); ?></p>
 			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('Customization Flexibility.', 'auto-car-dealership'); ?></p>
 			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('Regular Updates.', 'auto-car-dealership'); ?></p>
@@ -358,7 +358,7 @@ function auto_car_dealership_theme_page_display() {
 	    		</div>
 	    		<div class="bundle-text">
 		  			<h2><?php esc_html_e('WP THEME BUNDLE','auto-car-dealership'); ?></h2>
-					<h4><?php esc_html_e('Get Access to 400+ Premium WordPress Themes At Just $99','auto-car-dealership'); ?></h4>
+					<h4><?php esc_html_e('Get Access to 485+ Premium WordPress Themes At Just $99','auto-car-dealership'); ?></h4>
 					<div class="bundle-button">
 			  			<a href="<?php echo esc_url( 'https://www.vwthemes.com/discount/FREEBREF?redirect=/products/wp-theme-bundle'); ?>" target="_blank"><?php esc_html_e('Get 10% OFF On Bundle', 'auto-car-dealership'); ?></a>
 			  		</div>

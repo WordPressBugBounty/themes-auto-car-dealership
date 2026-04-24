@@ -62,7 +62,7 @@ function auto_car_dealership_activation_notice() {
                 <span class="bundle-btn">
                     <a href="https://www.vwthemes.com/products/wp-theme-bundle"
                        class="button button-primary" target="_blank">
-                        <?php esc_html_e( 'BUNDLE OF 400+ THEMES', 'auto-car-dealership' ); ?>
+                        <?php esc_html_e( 'BUNDLE OF 485+ THEMES', 'auto-car-dealership' ); ?>
                     </a>
                 </span>
 
@@ -101,7 +101,7 @@ function auto_car_dealership_activation_notice() {
 
                         if (response.success) {
                             window.location.href = redirectUrl;
-                        } else {
+                        } else{
                             alert('Failed to activate the plugin.');
                             button.text('Try Again');
                         }
@@ -112,3 +112,20 @@ function auto_car_dealership_activation_notice() {
     </script>
     <?php
 }
+// Add bundle image in customizer
+add_action('customize_controls_print_footer_scripts', function () {
+    ?>
+    <script>
+        jQuery(document).ready(function($) {
+            var auto_car_dealership_banner = `
+                <div class="vw-bundle-banner" style="padding:10px 12px;">
+                    <a href="https://www.vwthemes.com/products/wp-theme-bundle" target="_blank">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/bundle-img.png' ); ?>" style="width:100%; border-radius:4px;">
+                    </a>
+                </div>
+            `;
+            $('.customize-pane-parent').prepend(auto_car_dealership_banner);
+        });
+    </script>
+    <?php
+});

@@ -31,7 +31,7 @@ msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/"
+msgid "Auto Car Dealership is an impressive block-based theme tailored for businesses in the automotive sector, including car rentals, bike rentals, car mechanics, and auto dealerships in the city. This theme comes packed with full site editing features, block patterns, and block editor patterns, allowing for extensive customization. Created by WordPress experts, it utilizes a lightweight design along with the latest HTML codes, which are optimized for faster page load speeds. The elegant and professional appearance effectively showcases your automobile business. With a retina-ready and responsive design, this theme ensures compatibility across all devices. There’s a beautifully designed banner along with sections for displaying information about your team, client testimonials, and much more. Developers have focused on SEO-friendly practices to minimize extra efforts for optimization, and a Call to Action Button (CTA) guides visitors toward the next steps. Additionally, the theme offers multiple social media options and is translation-ready to accommodate various languages. Demo: https://www.vwthemes.net/auto-car-dealership/"
 msgstr ""
 
 #. Author of the theme
@@ -224,7 +224,7 @@ msgid "UPGRADE TO PRO"
 msgstr ""
 
 #: inc/core/activation-notice.php:65
-msgid "BUNDLE OF 400+ THEMES"
+msgid "BUNDLE OF 485+ THEMES"
 msgstr ""
 
 #: inc/core/theme-info.php:42
@@ -245,7 +245,7 @@ msgid "WP Theme Bundle"
 msgstr ""
 
 #: inc/core/theme-info.php:59
-msgid "Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages."
+msgid "Auto Car Dealership is an impressive block-based theme tailored for businesses in the automotive sector, including car rentals, bike rentals, car mechanics, and auto dealerships in the city. This theme comes packed with full site editing features, block patterns, and block editor patterns, allowing for extensive customization. Created by WordPress experts, it utilizes a lightweight design along with the latest HTML codes, which are optimized for faster page load speeds. The elegant and professional appearance effectively showcases your automobile business. With a retina-ready and responsive design, this theme ensures compatibility across all devices. There’s a beautifully designed banner along with sections for displaying information about your team, client testimonials, and much more. Developers have focused on SEO-friendly practices to minimize extra efforts for optimization, and a Call to Action Button (CTA) guides visitors toward the next steps. Additionally, the theme offers multiple social media options and is translation-ready to accommodate various languages. "
 msgstr ""
 
 #: inc/core/theme-info.php:62
@@ -501,7 +501,7 @@ msgid "Upgrade to Pro"
 msgstr ""
 
 #: inc/core/theme-info.php:315
-msgid "Enhance your website effortlessly with our WP Theme Bundle. Get access to 400+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience."
+msgid "Enhance your website effortlessly with our WP Theme Bundle. Get access to 485+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience."
 msgstr ""
 
 #: inc/core/theme-info.php:317
@@ -509,7 +509,7 @@ msgid "Features:"
 msgstr ""
 
 #: inc/core/theme-info.php:318
-msgid "400+ Premium Themes & 5+ Plugins."
+msgid "485+ Premium Themes & 5+ Plugins."
 msgstr ""
 
 #: inc/core/theme-info.php:319
@@ -562,7 +562,7 @@ msgid "WP THEME BUNDLE"
 msgstr ""
 
 #: inc/core/theme-info.php:361
-msgid "Get Access to 400+ Premium WordPress Themes At Just $99"
+msgid "Get Access to 485+ Premium WordPress Themes At Just $99"
 msgstr ""
 
 #: inc/core/theme-info.php:363

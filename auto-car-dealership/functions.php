@@ -60,8 +60,8 @@ if ( ! function_exists( 'auto_car_dealership_setup' ) ) :
 				'primary' => __( 'Primary Navigation', 'auto-car-dealership' ),
 			)
 		);
-	}
-endif;
+		}
+	    endif;
 add_action( 'after_setup_theme', 'auto_car_dealership_setup' );
 
 if ( ! function_exists( 'auto_car_dealership_fonts_url' ) ) :

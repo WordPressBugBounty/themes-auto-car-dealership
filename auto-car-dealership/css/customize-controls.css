@@ -27,3 +27,7 @@ a.button.button-secondary.alignright {
 .accordion-section-title button.accordion-trigger{
   height: auto !important;
 }
+.customize-pane-parent .vw-bundle-banner a:focus{
+  outline: unset !important;
+  box-shadow: unset !important;
+}

@@ -13,7 +13,8 @@ Auto Car Dealership is a spectacular block based theme for websites
 
 == Description ==
 
-Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more.
+Auto Car Dealership is an impressive block-based theme tailored for businesses in the automotive sector, including car rentals, bike rentals, car mechanics, and auto dealerships in the city. This theme comes packed with full site editing features, block patterns, and block editor patterns, allowing for extensive customization. Created by WordPress experts, it utilizes a lightweight design along with the latest HTML codes, which are optimized for faster page load speeds. The elegant and professional appearance effectively showcases your automobile business. With a retina-ready and responsive design, this theme ensures compatibility across all devices. There’s a beautifully designed banner along with sections for displaying information about your team, client testimonials, and much more. Developers have focused on SEO-friendly practices to minimize extra efforts for optimization, and a Call to Action Button (CTA) guides visitors toward the next steps. Additionally, the theme offers multiple social media options and is translation-ready to accommodate various languages. For a closer look, visit the demo at: https://www.vwthemes.net/auto-car-dealership/.
+
 == Installation ==
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
@@ -318,6 +319,10 @@ Auto Car Dealership is a spectacular block based theme for websites designed for
 * Added animation on shop page.
 * Updated pot file.
 * Updated rtl file.
+
+= 1.7.0 =
+* Changed Description.
+* Added bundle image in customizer.
 
 == Copyright ==
 
