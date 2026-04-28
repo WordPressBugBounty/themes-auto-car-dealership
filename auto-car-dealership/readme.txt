@@ -324,6 +324,9 @@ Auto Car Dealership is an impressive block-based theme tailored for businesses i
 * Changed Description.
 * Added bundle image in customizer.
 
+= 1.7.1 =
+* Removed bundle notice.
+
 == Copyright ==
 
 * Based on Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org. Twenty Twenty-Two is distributed under the terms of the GNU GPL.
