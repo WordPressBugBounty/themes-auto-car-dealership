@@ -23,6 +23,9 @@ Auto Car Dealership is an impressive block-based theme tailored for businesses i
 
 == Changelog ==
 
+= 1.7.2 =
+* Resolved issue.
+
 = 1.0
 * Initial release
 
