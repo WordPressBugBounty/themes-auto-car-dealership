@@ -236,7 +236,7 @@ a:hover, a:active, a:hover {
   transition: 0.5s;
 }
 .woocommerce .wp-block-group {
-    margin: 10px 10%;
+    margin: 10px 20%;
 }
 .woocommerce .products-block-post-template li{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -452,7 +452,7 @@ nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-
   margin: 0 0 30px 0;
 }
 .woocommerce .wp-block-group {
-  margin: 10px 10%;
+  margin: 10px 20%;
 }
 .single-product .wc-block-components-product-price ins,.post-type-archive-product .wc-block-grid__product-price  ins{
   background: none !important;

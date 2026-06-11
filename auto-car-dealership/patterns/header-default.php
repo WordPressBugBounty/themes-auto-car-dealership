@@ -16,8 +16,8 @@
 
 <!-- wp:column {"width":"75%"} -->
 <div class="wp-block-column" style="flex-basis:75%"><!-- wp:columns {"className":"topbar-section"} -->
-<div class="wp-block-columns topbar-section"><!-- wp:column {"width":"10%"} -->
-<div class="wp-block-column" style="flex-basis:10%"></div>
+<div class="wp-block-columns topbar-section"><!-- wp:column {"width":"20%"} -->
+<div class="wp-block-column" style="flex-basis:20%"></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"25%","className":"contact"} -->

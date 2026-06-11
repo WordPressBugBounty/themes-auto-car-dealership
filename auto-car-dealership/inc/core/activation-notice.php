@@ -62,7 +62,7 @@ function auto_car_dealership_activation_notice() {
                 <span class="bundle-btn">
                     <a href="https://www.vwthemes.com/products/wp-theme-bundle"
                        class="button button-primary" target="_blank">
-                        <?php esc_html_e( 'BUNDLE OF 485+ THEMES', 'auto-car-dealership' ); ?>
+                        <?php esc_html_e( 'BUNDLE OF 500+ THEMES', 'auto-car-dealership' ); ?>
                     </a>
                 </span>
 

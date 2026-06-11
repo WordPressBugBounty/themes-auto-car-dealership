@@ -312,16 +312,16 @@ function auto_car_dealership_theme_page_display() {
 				<div class="col-left-pro">
 			   		<h3><?php esc_html_e( 'WP Theme Bundle', 'auto-car-dealership' ); ?></h3>
 			   		<hr class="h3hr">
-			    	<p><?php esc_html_e('Enhance your website effortlessly with our WP Theme Bundle. Get access to 485+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience.','auto-car-dealership'); ?></p>
+			    	<p><?php esc_html_e('Enhance your website effortlessly with our WP Theme Bundle. Get access to 500+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience.','auto-car-dealership'); ?></p>
 			    	<div class="feature">
 			    		<h4><?php esc_html_e( 'Features:', 'auto-car-dealership' ); ?></h4>
-			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('485+ Premium Themes & 5+ Plugins.', 'auto-car-dealership'); ?></p>
+			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('500+ Premium Themes & 5+ Plugins.', 'auto-car-dealership'); ?></p>
 			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('Seamless Integration.', 'auto-car-dealership'); ?></p>
 			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('Customization Flexibility.', 'auto-car-dealership'); ?></p>
 			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('Regular Updates.', 'auto-car-dealership'); ?></p>
 			    		<p><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/tick.png" alt="" /><?php esc_html_e('Dedicated Support.', 'auto-car-dealership'); ?></p>
 			    	</div>
-			    	<p><?php esc_html_e('Upgrade now and give your website the professional edge it deserves, all at an unbeatable price of $99!', 'auto-car-dealership'); ?></p>
+			    	<p><?php esc_html_e('Upgrade now and give your website the professional edge it deserves, all at an unbeatable price of $119!', 'auto-car-dealership'); ?></p>
 			    	<div class="pro-links">
 						<a href="<?php echo esc_url( AUTO_CAR_DEALERSHIP_THEME_BUNDLE_BUY_NOW ); ?>" target="_blank" class="bundle-buy"><?php esc_html_e('Get Bundle', 'auto-car-dealership'); ?></a>
 						<a href="<?php echo esc_url( AUTO_CAR_DEALERSHIP_THEME_BUNDLE_DOC ); ?>" target="_blank" class="bundle-doc"><?php esc_html_e('Documentation', 'auto-car-dealership'); ?></a>
@@ -358,9 +358,9 @@ function auto_car_dealership_theme_page_display() {
 	    		</div>
 	    		<div class="bundle-text">
 		  			<h2><?php esc_html_e('WP THEME BUNDLE','auto-car-dealership'); ?></h2>
-					<h4><?php esc_html_e('Get Access to 485+ Premium WordPress Themes At Just $99','auto-car-dealership'); ?></h4>
+					<h4><?php esc_html_e('Get Access to 500+ Premium WordPress Themes At Just $119','auto-car-dealership'); ?></h4>
 					<div class="bundle-button">
-			  			<a href="<?php echo esc_url( 'https://www.vwthemes.com/discount/FREEBREF?redirect=/products/wp-theme-bundle'); ?>" target="_blank"><?php esc_html_e('Get 10% OFF On Bundle', 'auto-car-dealership'); ?></a>
+			  			<a href="<?php echo esc_url( 'https://www.vwthemes.com/discount/FREEBREF?redirect=/products/wp-theme-bundle'); ?>" target="_blank"><?php esc_html_e('Get 20% OFF On Bundle', 'auto-car-dealership'); ?></a>
 			  		</div>
 		  		</div>
 	    	</div>
