@@ -3,17 +3,17 @@
 Contributors: VWThemes
 Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-site-editing, style-variations, translation-ready, block-patterns, sticky-post, threaded-comments, template-editing, blog, e-commerce, photography
 Requires at least: 5.9
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Theme URI: https://www.vwthemes.com/products/free-car-dealership-wordpress-theme
 
-Auto Car Dealership is a spectacular block based theme for websites
+The Auto Car Dealership theme is a remarkable block-based solution specifically designed for businesses in the automotive industry, including car rentals, bike rentals, mechanics, and dealerships within the city.
 
 == Description ==
 
-Auto Car Dealership is an impressive block-based theme tailored for businesses in the automotive sector, including car rentals, bike rentals, car mechanics, and auto dealerships in the city. This theme comes packed with full site editing features, block patterns, and block editor patterns, allowing for extensive customization. Created by WordPress experts, it utilizes a lightweight design along with the latest HTML codes, which are optimized for faster page load speeds. The elegant and professional appearance effectively showcases your automobile business. With a retina-ready and responsive design, this theme ensures compatibility across all devices. There’s a beautifully designed banner along with sections for displaying information about your team, client testimonials, and much more. Developers have focused on SEO-friendly practices to minimize extra efforts for optimization, and a Call to Action Button (CTA) guides visitors toward the next steps. Additionally, the theme offers multiple social media options and is translation-ready to accommodate various languages. For a closer look, visit the demo at: https://www.vwthemes.net/auto-car-dealership/.
+The Auto Car Dealership theme is a remarkable block-based solution specifically designed for businesses in the automotive industry, including car rentals, bike rentals, mechanics, and dealerships within the city. Featuring full site editing capabilities, block patterns, and a user-friendly block editor, this theme allows for significant customization. Developed by WordPress experts, it boasts a lightweight design complemented by the latest HTML codes, ensuring speedy page load times. Its elegant and professional layout effectively highlights your automobile business, while its responsive and retina-ready design guarantees compatibility across all devices. The theme includes a beautifully crafted banner and dedicated sections to present your team's information, client testimonials, and more. With an emphasis on SEO-friendly practices, it simplifies optimization efforts, and a Call to Action Button (CTA) directs visitors toward their next steps. Additionally, the theme offers various social media integration options and is translation-ready to support multiple languages. For a closer look, check out the demo at: Demo: https://www.vwthemes.net/auto-car-dealership/.
 
 == Installation ==
 
@@ -23,21 +23,19 @@ Auto Car Dealership is an impressive block-based theme tailored for businesses i
 
 == Changelog ==
 
+= 1.7.4 =
+* Updated description.
+* Resolved css for buttons in customizer.
+* Tested upto WP v7.0
+
 = 1.7.3 =
 * Enhanced Theme Stability.
+
 = 1.7.2 =
 * Resolved issue.
 
-= 1.0
-* Initial release
-
-= 1.0.1
-* Added skip link in theme.
-* Resolved 404 page template error.
-
 = 1.7.1 =
 * Removed bundle notice.
-
 
 = 1.7.0 =
 * Changed Description.
@@ -332,6 +330,13 @@ Auto Car Dealership is an impressive block-based theme tailored for businesses i
 * Added hover on buttons
 * Changes done in header.
 * Added function to redirect getstarted.
+
+= 1.0.1
+* Added skip link in theme.
+* Resolved 404 page template error.
+
+= 1.0
+* Initial release
 
 == Copyright ==
 
