@@ -23,6 +23,9 @@ The Auto Car Dealership theme is a remarkable block-based solution specifically 
 
 == Changelog ==
 
+= 1.7.6 =
+* Updated Theme Framework.
+
 = 1.7.5 =
 * Framework Optimization.
 
@@ -440,5 +443,5 @@ All images are licensed under [CC0] (https://creativecommons.org/publicdomain/ze
 
 	Footer BG image
 	License: CC0 1.0 Universal (CC0 1.0)
-Stable tag: 1.7.5
+Stable tag: 1.7.6
 	Source: https://pxhere.com/en/photo/514730
