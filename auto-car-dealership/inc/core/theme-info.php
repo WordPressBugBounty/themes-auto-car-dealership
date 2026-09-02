@@ -341,7 +341,7 @@ function auto_car_dealership_theme_page_display() {
 					<span class="version"><?php esc_html_e( 'Version', 'auto-car-dealership' ); ?>: <?php echo esc_html($auto_car_dealership_theme['Version']);?></span>
 					<span class="coupon-code"><?php esc_html_e('Get 20% Of On Pro Theme-Use Code: ','auto-car-dealership'); ?><span class="code-highlight"><?php esc_html_e('VWPRO20','auto-car-dealership'); ?></span>
 				</div>
-		    	<p><?php esc_html_e('All Our Wordpress Themes Are Modern, Minimalist, 100% Responsive, Seo-Friendly,Feature-Rich, And Multipurpose That Best Suit Designers, Bloggers And Other Professionals Who Are Working In The Creative Fields.','auto-car-dealership'); ?></p>
+		    	<p><?php esc_html_e('All Our WordPress Themes Are Modern, Minimalist, 100% Responsive, Seo-Friendly,Feature-Rich, And Multipurpose That Best Suit Designers, Bloggers And Other Professionals Who Are Working In The Creative Fields.','auto-car-dealership'); ?></p>
 		    	<div class="btn-section">
 			    	<div class="proo-links">
 				    	<a href="<?php echo esc_url( AUTO_CAR_DEALERSHIP_LIVE_DEMO ); ?>" target="_blank" class="demo-btn"><?php esc_html_e('Live Demo', 'auto-car-dealership'); ?></a>
