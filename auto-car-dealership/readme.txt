@@ -23,6 +23,12 @@ The Auto Car Dealership theme is a remarkable block-based solution specifically 
 
 == Changelog ==
 
+= 1.7.11 (Released: Sept, 2026) =
+* Updated getstarted & notice function.
+
+= 1.7.7 =
+* Performance and Stability.
+
 = 1.7.6 =
 * Updated Theme Framework.
 
@@ -282,7 +288,7 @@ The Auto Car Dealership theme is a remarkable block-based solution specifically 
 
 = 1.1.5 =
 * Added css for search button.
-* Updated wordpress version.
+* Updated WordPress version.
 
 = 1.1.4 =
 * Removed css for single post.
@@ -343,7 +349,6 @@ The Auto Car Dealership theme is a remarkable block-based solution specifically 
 
 = 1.0
 * Initial release
-
 == Copyright ==
 
 * Based on Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org. Twenty Twenty-Two is distributed under the terms of the GNU GPL.
@@ -443,5 +448,5 @@ All images are licensed under [CC0] (https://creativecommons.org/publicdomain/ze
 
 	Footer BG image
 	License: CC0 1.0 Universal (CC0 1.0)
-Stable tag: 1.7.6
+Stable tag: 1.7.11
 	Source: https://pxhere.com/en/photo/514730

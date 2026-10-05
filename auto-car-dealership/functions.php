@@ -176,8 +176,8 @@ function auto_car_dealership_init_setup() {
 	require get_template_directory() . '/inc/section-pro/customizer.php';
 
 	define('AUTO_CAR_DEALERSHIP_BUY_NOW',__('https://www.vwthemes.com/products/car-wordpress-theme','auto-car-dealership'));
-	define('AUTO_CAR_DEALERSHIP_SUPPORT',__('https://WordPress.org/support/theme/auto-car-dealership/','auto-car-dealership'));
-	define('AUTO_CAR_DEALERSHIP_REVIEW',__('https://WordPress.org/support/theme/auto-car-dealership/reviews/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_SUPPORT',__('https://wordpress.org/support/theme/auto-car-dealership/','auto-car-dealership'));
+	define('AUTO_CAR_DEALERSHIP_REVIEW',__('https://wordpress.org/support/theme/auto-car-dealership/reviews/','auto-car-dealership'));
 	define('AUTO_CAR_DEALERSHIP_LIVE_DEMO',__('https://www.vwthemes.net/auto-car-dealership/','auto-car-dealership'));
 	define('AUTO_CAR_DEALERSHIP_PRO_DOC',__('https://preview.vwthemesdemo.com/docs/vw-automobile-pro/','auto-car-dealership'));
 	define('AUTO_CAR_DEALERSHIP_FREE_DOC',__('https://preview.vwthemesdemo.com/docs/free-auto-car-dealership/','auto-car-dealership'));

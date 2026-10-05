@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Auto Car Dealership 1.6.7\n"
-"Report-Msgid-Bugs-To: https://WordPress.org/support/theme/auto-car-dealership\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/auto-car-dealership\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -59,11 +59,11 @@ msgid "https://www.vwthemes.com/products/car-wordpress-theme"
 msgstr ""
 
 #: functions.php:179
-msgid "https://WordPress.org/support/theme/auto-car-dealership/"
+msgid "https://wordpress.org/support/theme/auto-car-dealership/"
 msgstr ""
 
 #: functions.php:180
-msgid "https://WordPress.org/support/theme/auto-car-dealership/reviews/"
+msgid "https://wordpress.org/support/theme/auto-car-dealership/reviews/"
 msgstr ""
 
 #: functions.php:181
