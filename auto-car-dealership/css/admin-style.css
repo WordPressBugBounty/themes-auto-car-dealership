@@ -191,7 +191,7 @@ a.doc-links:hover {
 /*activation notice*/
 .notice.notice-success.is-dismissible.welcome-notice span a{
     margin: 10px 10px 10px 0px;
-    padding: 2px 20px !important;
+    padding: 6px 20px !important;
     font-weight: 600;
     line-height: 1.8;
 }
@@ -199,7 +199,7 @@ a.doc-links:hover {
     background: transparent !important;
     color: #242628 !important;
     border: 2px solid #242628 !important;
-    padding: 2px 20px !important;
+    padding: 6px 20px !important;
 }
 .notice.notice-success.is-dismissible.welcome-notice span.import-btn a{
     background: #242628;

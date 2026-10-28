@@ -3,7 +3,7 @@
 Contributors: VWThemes
 Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-site-editing, style-variations, translation-ready, block-patterns, sticky-post, threaded-comments, template-editing, blog, e-commerce, photography
 Requires at least: 5.9
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -22,6 +22,9 @@ The Auto Car Dealership theme is a remarkable block-based solution specifically 
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+
+= 1.8.0 =
+* UI and UX Improvements.
 
 = 1.7.11 (Released: Sept, 2026) =
 * Updated getstarted & notice function.
@@ -351,7 +354,7 @@ The Auto Car Dealership theme is a remarkable block-based solution specifically 
 * Initial release
 == Copyright ==
 
-* Based on Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org. Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+* Based on Twenty Twenty-Two WordPress Theme, (C) 2021 wordpress.org. Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2018 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
 
 == Fonts ==
@@ -448,5 +451,5 @@ All images are licensed under [CC0] (https://creativecommons.org/publicdomain/ze
 
 	Footer BG image
 	License: CC0 1.0 Universal (CC0 1.0)
-Stable tag: 1.7.11
+Stable tag: 1.8.0
 	Source: https://pxhere.com/en/photo/514730

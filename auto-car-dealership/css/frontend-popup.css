@@ -1,0 +1,229 @@
+/**
+ * Auto Car Dealership — Front-end promo popup.
+ *
+ * Uses the theme.json palette:
+ * primary #0F0639 / tertiary #3C419B / quaternary #783E65 / section-primary #F3F5FF
+ */
+
+.vw-upsell-popup {
+	position: fixed;
+	z-index: 99999;
+	right: 24px;
+	bottom: 24px;
+	width: 380px;
+	max-width: calc(100vw - 32px);
+	border-radius: 18px;
+	overflow: hidden;
+	color: #0F0639;
+	background: #FFFFFF;
+	border: 1px solid rgba(15, 6, 57, 0.08);
+	border-top: 4px solid #3C419B;
+	box-shadow: 0 20px 50px rgba(15, 6, 57, 0.18);
+	font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	animation: vw-upsell-popup-in 0.35s ease both;
+}
+
+/* Soft cloud-like tint in the corner. */
+.vw-upsell-popup::after {
+	content: "";
+	position: absolute;
+	right: -60px;
+	bottom: -70px;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(60, 65, 155, 0.08), transparent 65%);
+	pointer-events: none;
+}
+
+.vw-upsell-popup__inner {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	padding: 24px;
+}
+
+.vw-upsell-popup__logo {
+	display: block;
+	height: 30px;
+	width: auto;
+	max-width: 100%;
+	margin-right: 44px;
+}
+
+.vw-upsell-popup__badge {
+	display: inline-block;
+	margin-top: 4px;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: #F3F5FF;
+	border: 1px solid rgba(60, 65, 155, 0.2);
+	color: #3C419B;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.vw-upsell-popup__title {
+	margin: 0;
+	padding: 0;
+	color: #0F0639;
+	font-family: Outfit, Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	line-height: 1.25;
+}
+
+.vw-upsell-popup__text {
+	margin: 0;
+	color: rgba(15, 6, 57, 0.7);
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.vw-upsell-popup__actions {
+	display: flex;
+	gap: 10px;
+	width: 75%;
+	margin-top: 6px;
+}
+
+.vw-upsell-popup__screenshot img {
+	height: 80px;
+	width: 80px;
+}
+
+.vw-upsell-popup__btn {
+	display: inline-flex;
+	flex: 1 1 0;
+	align-items: center;
+	justify-content: center;
+	height: 38px;
+	padding: 0 16px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	white-space: nowrap;
+	text-decoration: none;
+	transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.vw-upsell-popup__btn:hover {
+	transform: translateY(-2px);
+}
+
+.vw-upsell-popup__btn:focus {
+	outline: 2px solid #3C419B;
+	outline-offset: 3px;
+	box-shadow: none;
+}
+
+.vw-upsell-popup__btn--buy {
+	background: #0F0639;
+	color: #FFFFFF;
+	border-color: #0F0639;
+	box-shadow: 0 6px 18px rgba(15, 6, 57, 0.25);
+}
+
+.vw-upsell-popup__btn--buy:hover,
+.vw-upsell-popup__btn--buy:focus {
+	background: #783E65;
+	color: #FFFFFF;
+	border-color: #783E65;
+}
+
+.vw-upsell-popup__btn--demo {
+	background: #FFFFFF;
+	color: #3C419B;
+	border-color: #3C419B;
+}
+
+.vw-upsell-popup__btn--demo:hover,
+.vw-upsell-popup__btn--demo:focus {
+	background: #3C419B;
+	color: #FFFFFF;
+	border-color: #3C419B;
+}
+
+.vw-upsell-popup__close {
+	position: absolute;
+	z-index: 3;
+	top: 14px;
+	right: 14px;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	background: #F3F5FF;
+	color: #0F0639;
+	border: 1px solid rgba(15, 6, 57, 0.12);
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: background 0.2s ease, color 0.2s ease, transform 0.18s ease;
+}
+
+.vw-upsell-popup__close:hover,
+.vw-upsell-popup__close:focus {
+	background: #0F0639;
+	color: #FFFFFF;
+	border-color: #0F0639;
+	transform: rotate(90deg);
+	outline: none;
+}
+
+.vw-upsell-popup.is-dismissing {
+	opacity: 0;
+	transform: translateY(8px);
+	transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+@keyframes vw-upsell-popup-in {
+	from {
+		opacity: 0;
+		transform: translateY(16px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+p.vw-upsell-popup__text strong {
+	font-size: 16px;
+	color: #000000;
+}
+
+@media (max-width: 600px) {
+	.vw-upsell-popup {
+		right: 16px;
+		bottom: 16px;
+		border-radius: 14px;
+	}
+	.vw-upsell-popup__inner {
+		padding: 20px;
+	}
+	.vw-upsell-popup__title {
+		font-size: 19px;
+	}
+	.vw-upsell-popup__actions {
+		flex-wrap: wrap;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.vw-upsell-popup {
+		animation: none;
+	}
+}

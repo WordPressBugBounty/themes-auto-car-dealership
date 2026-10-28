@@ -228,7 +228,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		public $strings = array();
 
 		/**
-		 * Holds the version of WordPress.
+		 * Holds the version of wordpress.
 		 *
 		 * @since 2.4.0
 		 *
@@ -311,7 +311,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		}
 
 		/**
-		 * Initialise the interactions between this class and WordPress.
+		 * Initialise the interactions between this class and wordpress.
 		 *
 		 * Hooks in three new methods for the class: admin_menu, notices and styles.
 		 *
@@ -655,10 +655,10 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 				wp_enqueue_style( 'plugin-install' );
 
 				global $tab, $body_id;
-				// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- WP requirement.
+				// phpcs:ignore wordpress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- WP requirement.
 				$body_id = 'plugin-information';
 
-				// phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited -- Overriding the WP global is the point.
+				// phpcs:ignore wordpress.WP.GlobalVariablesOverride.Prohibited -- Overriding the WP global is the point.
 				$tab = 'plugin-information';
 
 				install_plugin_information();
@@ -1085,7 +1085,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 					if ( ! $automatic ) {
 						// Make sure message doesn't display again if bulk activation is performed
 						// immediately after a single activation.
-						// phpcs:ignore WordPress.Security.NonceVerification.Missing -- Not using the superglobal.
+						// phpcs:ignore wordpress.Security.NonceVerification.Missing -- Not using the superglobal.
 						if ( ! isset( $_POST['action'] ) ) {
 							echo '<div id="message" class="updated"><p>', esc_html( $this->strings['activated_successfully'] ), ' <strong>', esc_html( $this->plugins[ $slug ]['name'] ), '.</strong></p></div>';
 						}
@@ -1107,7 +1107,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 				if ( ! $automatic ) {
 					// Make sure message doesn't display again if bulk activation is performed
 					// immediately after a single activation.
-					// phpcs:ignore WordPress.Security.NonceVerification.Missing -- Not using the superglobal.
+					// phpcs:ignore wordpress.Security.NonceVerification.Missing -- Not using the superglobal.
 					if ( ! isset( $_POST['action'] ) ) {
 						echo '<div id="message" class="error"><p>',
 							sprintf(
@@ -1768,10 +1768,10 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 			if ( 'update-core' === $screen->base ) {
 				// Core update screen.
 				return true;
-			} elseif ( 'plugins' === $screen->base && ! empty( $_POST['action'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Missing
+			} elseif ( 'plugins' === $screen->base && ! empty( $_POST['action'] ) ) { // phpcs:ignore wordpress.Security.NonceVerification.Missing
 				// Plugins bulk update screen.
 				return true;
-			} elseif ( 'update' === $screen->base && ! empty( $_POST['action'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Missing
+			} elseif ( 'update' === $screen->base && ! empty( $_POST['action'] ) ) { // phpcs:ignore wordpress.Security.NonceVerification.Missing
 				// Individual updates (ajax call).
 				return true;
 			}
@@ -3101,7 +3101,7 @@ if ( ! class_exists( 'TGMPA_List_Table' ) ) {
 					printf(
 						'<div id="message" class="updated"><p>%1$s %2$s.</p></div>',
 						esc_html( _n( 'The following plugin was activated successfully:', 'The following plugins were activated successfully:', $count, 'auto-car-dealership' ) ),
-						// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Pre-escaped via wrap_in_strong() method above.
+						// phpcs:ignore wordpress.Security.EscapeOutput.OutputNotEscaped -- Pre-escaped via wrap_in_strong() method above.
 						$imploded
 					);
 
@@ -3467,7 +3467,7 @@ if ( ! function_exists( 'tgmpa_load_bulk_installer' ) ) {
 						 * }
 						 */
 						do_action(
-							// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- Using WP core hook.
+							// phpcs:ignore wordpress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- Using WP core hook.
 							'upgrader_process_complete',
 							$this,
 							array(
@@ -3882,7 +3882,7 @@ if ( ! class_exists( 'TGMPA_Utils' ) ) {
 		 * @return bool
 		 */
 		protected static function emulate_filter_bool( $value ) {
-			// phpcs:disable WordPress.Arrays.ArrayDeclarationSpacing.ArrayItemNoNewLine
+			// phpcs:disable wordpress.Arrays.ArrayDeclarationSpacing.ArrayItemNoNewLine
 			static $true  = array(
 				'1',
 				'true', 'True', 'TRUE',

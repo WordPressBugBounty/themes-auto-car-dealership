@@ -271,3 +271,7 @@ function auto_car_dealership_getstart_setup_options () {
 }
 // Admin notice code END
 
+/**
+ * Front-end promo popup for super admins.
+ */
+require_once get_template_directory() . '/inc/frontend-popup.php';
